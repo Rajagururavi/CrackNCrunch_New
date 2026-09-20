@@ -1224,22 +1224,21 @@
                 }, 4000); 
             });
             function toggleUserMenu(){
-                document.getElementById("userDropdown").classList.toggle("show");
+                var box = document.getElementById("userDropdown");
+                if (box) box.classList.toggle("show");
             }
             window.onclick=function(e){
                 if(!e.target.matches('.user-btn')){
                     var box=document.getElementById("userDropdown");
-                    if(box.classList.contains("show")){
+                    if(box && box.classList.contains("show")){
                         box.classList.remove("show");
                     }
                 }
             }
-            function toggleUserMenu() {
-                document.getElementById("userDropdown").classList.toggle("show");
-            }
             window.addEventListener("click", function(e){
                 if(!e.target.closest(".user-menu")){
-                    document.getElementById("userDropdown").classList.remove("show");
+                    var box = document.getElementById("userDropdown");
+                    if(box) box.classList.remove("show");
                 }
             });
         </script>
