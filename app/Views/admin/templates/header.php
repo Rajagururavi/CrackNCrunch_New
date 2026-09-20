@@ -2,81 +2,143 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=\, initial-scale=1.0">
-        <title>Admin Panel</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CrackNCrunch Admin Panel</title>
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
         <!-- Font Awesome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
         <!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
         <style>
+            :root {
+                --primary: #6366f1;
+                --primary-gradient: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);
+                --bg-body: #f8fafc;
+                --text-main: #0f172a;
+                --text-muted: #64748b;
+            }
             body {
                 margin: 0;
-                font-family: Arial, sans-serif;
-                background: #f4f6f9;
+                font-family: 'Plus Jakarta Sans', sans-serif;
+                background: var(--bg-body);
+                color: var(--text-main);
             }
             .topbar {
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
-                background: #fff;
-                padding: 10px 20px;
-                border-bottom: 1px solid #ddd;
+                background: #ffffff;
+                padding: 14px 28px;
+                border-bottom: 1px solid #e2e8f0;
+                box-shadow: 0 1px 3px rgba(0,0,0,0.05);
             }
             .logo {
-                font-weight: bold;
-                font-size: 18px;
+                font-weight: 800;
+                font-size: 20px;
+                letter-spacing: -0.5px;
+                background: linear-gradient(135deg, #f59e0b, #ef4444);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
             }
             .search {
-                width: 40%;
-                padding: 6px;
-                border: 1px solid #ccc;
-                border-radius: 4px;
+                width: 360px;
+                padding: 8px 16px;
+                border: 1px solid #e2e8f0;
+                border-radius: 20px;
+                background: #f1f5f9;
+                font-size: 14px;
+                transition: all 0.2s ease;
+            }
+            .search:focus {
+                outline: none;
+                background: #ffffff;
+                border-color: #6366f1;
+                box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
             }
             .top-right {
                 display: flex;
                 align-items: center;
                 gap: 20px;
             }
-            .icon {
-                width: 20px;
-                height: 20px;
+            .icon-btn {
+                width: 38px;
+                height: 38px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: #f1f5f9;
+                color: #64748b;
                 cursor: pointer;
+                transition: all 0.2s;
+            }
+            .icon-btn:hover {
+                background: #e2e8f0;
+                color: #0f172a;
             }
             .user {
                 display: flex;
                 align-items: center;
-                gap: 8px;
+                gap: 10px;
+                padding: 4px 12px 4px 6px;
+                border-radius: 20px;
+                background: #f8fafc;
+                border: 1px solid #e2e8f0;
             }
             .user img {
-                width: 35px;
-                height: 35px;
+                width: 32px;
+                height: 32px;
                 border-radius: 50%;
+                object-fit: cover;
+            }
+            .user span {
+                font-size: 13px;
+                font-weight: 600;
+                color: #334155;
             }
             .menu {
                 display: flex;
-                gap: 25px;
-                background: #fff;
-                padding: 12px 20px;
-                border-bottom: 1px solid #ddd;
+                align-items: center;
+                gap: 8px;
+                background: #ffffff;
+                padding: 10px 28px;
+                border-bottom: 1px solid #e2e8f0;
+                overflow-x: auto;
             }
             .menu a {
                 display: flex;
                 align-items: center;
-                gap: 6px;
+                gap: 8px;
                 text-decoration: none;
-                color: #555;
-                font-size: 14px;
+                color: #64748b;
+                font-size: 13.5px;
+                font-weight: 500;
+                padding: 8px 14px;
+                border-radius: 8px;
+                transition: all 0.2s ease;
+                white-space: nowrap;
+            }
+            .menu a:hover {
+                color: #6366f1;
+                background: #f1f5f9;
             }
             .menu a.active {
-                color: #007bff;
-                font-weight: bold;
-                border-bottom: 2px solid #007bff;
-                padding-bottom: 4px;
+                color: #ffffff;
+                background: var(--primary-gradient);
+                font-weight: 600;
+                box-shadow: 0 4px 12px rgba(99, 102, 241, 0.25);
+            }
+            .menu a.active .menu-icon {
+                fill: #ffffff;
             }
             .menu-icon {
                 width: 16px;
                 height: 16px;
-                fill: #777;
+                fill: #64748b;
+                transition: fill 0.2s;
             }
         </style>
     </head>
