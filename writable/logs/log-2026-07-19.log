@@ -1,0 +1,158 @@
+CRITICAL - 2026-07-19 10:26:36 --> Error: Call to a member function isValid() on null
+[Method: POST, Route: admin/brands/store]
+in APPPATH\Controllers\Admin\Brands.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Brands->store()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Brands))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-19 10:30:01 --> Error: Call to a member function isValid() on null
+[Method: POST, Route: admin/brands/store]
+in APPPATH\Controllers\Admin\Brands.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Brands->store()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Brands))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-19 10:30:19 --> Error: Call to a member function isValid() on null
+[Method: POST, Route: admin/brands/store]
+in APPPATH\Controllers\Admin\Brands.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Brands->store()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Brands))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-19 10:38:08 --> Error: Call to a member function isValid() on null
+[Method: POST, Route: admin/brands/store]
+in APPPATH\Controllers\Admin\Brands.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Brands->store()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Brands))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-19 15:26:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/delete_account.php"
+[Method: GET, Route: delete_account]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/delete_account.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/delete_account', [], true)
+ 3 APPPATH\Controllers\UserController.php(165): view('pages/delete_account')
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\UserController->deleteAccount()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-19 15:30:08 --> ErrorException: Undefined variable $user
+[Method: GET, Route: delete_account]
+in APPPATH\Views\user\delete_account.php on line 234.
+ 1 APPPATH\Views\user\delete_account.php(234): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'D:\\customize_gifts\\app\\Views\\user\\delete_account.php', 234)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\user\\delete_account.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('user/delete_account', [], true)
+ 5 APPPATH\Controllers\UserController.php(155): view('user/delete_account')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\UserController->deleteAccount()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-19 15:30:58 --> ErrorException: Undefined variable $user
+[Method: GET, Route: delete_account]
+in APPPATH\Views\user\delete_account.php on line 234.
+ 1 APPPATH\Views\user\delete_account.php(234): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'D:\\customize_gifts\\app\\Views\\user\\delete_account.php', 234)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\user\\delete_account.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('user/delete_account', [], true)
+ 5 APPPATH\Controllers\UserController.php(155): view('user/delete_account')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\UserController->deleteAccount()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-19 15:31:49 --> ErrorException: Undefined variable $user
+[Method: GET, Route: delete_account]
+in APPPATH\Views\user\delete_account.php on line 234.
+ 1 APPPATH\Views\user\delete_account.php(234): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'D:\\customize_gifts\\app\\Views\\user\\delete_account.php', 234)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\user\\delete_account.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('user/delete_account', [], true)
+ 5 APPPATH\Controllers\UserController.php(158): view('user/delete_account')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\UserController->deleteAccount()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-19 15:33:52 --> ErrorException: Undefined variable $user
+[Method: GET, Route: delete_account]
+in APPPATH\Views\user\delete_account.php on line 234.
+ 1 APPPATH\Views\user\delete_account.php(234): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'D:\\customize_gifts\\app\\Views\\user\\delete_account.php', 234)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\user\\delete_account.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('user/delete_account', [], true)
+ 5 APPPATH\Controllers\UserController.php(158): view('user/delete_account')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\UserController->deleteAccount()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-19 15:35:07 --> ErrorException: Undefined variable $user
+[Method: GET, Route: delete_account]
+in APPPATH\Views\user\delete_account.php on line 234.
+ 1 APPPATH\Views\user\delete_account.php(234): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'D:\\customize_gifts\\app\\Views\\user\\delete_account.php', 234)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\user\\delete_account.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('user/delete_account', [], true)
+ 5 APPPATH\Controllers\UserController.php(158): view('user/delete_account')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\UserController->deleteAccount()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-19 15:35:18 --> ErrorException: Undefined variable $user
+[Method: GET, Route: delete_account]
+in APPPATH\Views\user\delete_account.php on line 234.
+ 1 APPPATH\Views\user\delete_account.php(234): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'D:\\customize_gifts\\app\\Views\\user\\delete_account.php', 234)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\user\\delete_account.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('user/delete_account', [], true)
+ 5 APPPATH\Controllers\UserController.php(158): view('user/delete_account')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\UserController->deleteAccount()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-19 15:38:43 --> ErrorException: Undefined variable $user
+[Method: GET, Route: delete_account]
+in APPPATH\Views\user\delete_account.php on line 234.
+ 1 APPPATH\Views\user\delete_account.php(234): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'D:\\customize_gifts\\app\\Views\\user\\delete_account.php', 234)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\user\\delete_account.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('user/delete_account', [], true)
+ 5 APPPATH\Controllers\UserController.php(158): view('user/delete_account')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\UserController->deleteAccount()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')

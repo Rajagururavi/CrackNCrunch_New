@@ -1,0 +1,75 @@
+CRITICAL - 2026-05-01 09:50:26 --> ErrorException: Undefined variable $cat_name
+[Method: GET, Route: category/2/Juices]
+in APPPATH\Views\pages\shop_page.php on line 17.
+ 1 APPPATH\Views\pages\shop_page.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cat_name', 'D:\\customize_gifts\\app\\Views\\pages\\shop_page.php', 17)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\shop_page.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/shop_page', [], true)
+ 5 APPPATH\Controllers\Admin\Pages\Shop.php(20): view('pages/shop_page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->index('2', 'Juices')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-05-01 09:52:55 --> ErrorException: Undefined variable $cat_name
+[Method: GET, Route: category/3/Vegetables]
+in APPPATH\Views\pages\shop_page.php on line 17.
+ 1 APPPATH\Views\pages\shop_page.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cat_name', 'D:\\customize_gifts\\app\\Views\\pages\\shop_page.php', 17)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\shop_page.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/shop_page', [], true)
+ 5 APPPATH\Controllers\Admin\Pages\Shop.php(20): view('pages/shop_page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->index('3', 'Vegetables')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-05-01 09:55:02 --> ArgumentCountError: Too few arguments to function esc(), 0 passed in D:\customize_gifts\app\Views\pages\shop_page.php on line 16 and at least 1 expected
+[Method: GET, Route: category/6/Chips]
+in SYSTEMPATH\Common.php on line 445.
+ 1 APPPATH\Views\pages\shop_page.php(16): esc()
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\shop_page.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/shop_page', [], true)
+ 5 APPPATH\Controllers\Admin\Pages\Shop.php(20): view('pages/shop_page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->index('6', 'Chips')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-05-01 12:03:26 --> ErrorException: Undefined variable $p
+[Method: GET, Route: search]
+in APPPATH\Views\pages\search_page.php on line 3.
+ 1 APPPATH\Views\pages\search_page.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $p', 'D:\\customize_gifts\\app\\Views\\pages\\search_page.php', 3)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\search_page.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/search_page', [], true)
+ 5 APPPATH\Controllers\Search.php(26): view('pages/search_page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Search->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-05-01 12:04:10 --> ErrorException: Array to string conversion
+[Method: GET, Route: search]
+in APPPATH\Views\pages\search_page.php on line 3.
+ 1 APPPATH\Views\pages\search_page.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\customize_gifts\\app\\Views\\pages\\search_page.php', 3)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\search_page.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/search_page', [], true)
+ 5 APPPATH\Controllers\Search.php(26): view('pages/search_page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Search->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')

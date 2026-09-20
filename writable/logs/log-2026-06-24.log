@@ -1,0 +1,476 @@
+CRITICAL - 2026-06-24 16:43:39 --> ErrorException: Undefined variable $final_price
+[Method: POST, Route: cart]
+in APPPATH\Views\menu\cart.php on line 153.
+ 1 APPPATH\Views\menu\cart.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $final_price', 'D:\\customize_gifts\\app\\Views\\menu\\cart.php', 153)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\menu\\cart.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('menu/cart', [], true)
+ 5 APPPATH\Controllers\CartController.php(16): view('menu/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\CartController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-24 16:44:01 --> ErrorException: Undefined variable $weight
+[Method: GET, Route: cart]
+in APPPATH\Views\menu\cart.php on line 108.
+ 1 APPPATH\Views\menu\cart.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $weight', 'D:\\customize_gifts\\app\\Views\\menu\\cart.php', 108)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\menu\\cart.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('menu/cart', [], true)
+ 5 APPPATH\Controllers\PolicyController.php(36): view('menu/cart')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PolicyController->cart()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PolicyController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-24 16:44:15 --> ErrorException: Undefined variable $weight
+[Method: GET, Route: cart]
+in APPPATH\Views\menu\cart.php on line 108.
+ 1 APPPATH\Views\menu\cart.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $weight', 'D:\\customize_gifts\\app\\Views\\menu\\cart.php', 108)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\menu\\cart.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('menu/cart', [], true)
+ 5 APPPATH\Controllers\PolicyController.php(36): view('menu/cart')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PolicyController->cart()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PolicyController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-24 16:44:36 --> ErrorException: Undefined variable $weight
+[Method: GET, Route: cart]
+in APPPATH\Views\menu\cart.php on line 108.
+ 1 APPPATH\Views\menu\cart.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $weight', 'D:\\customize_gifts\\app\\Views\\menu\\cart.php', 108)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\menu\\cart.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('menu/cart', [], true)
+ 5 APPPATH\Controllers\PolicyController.php(36): view('menu/cart')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PolicyController->cart()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PolicyController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-24 16:44:56 --> ErrorException: Undefined variable $product_image
+[Method: GET, Route: cart]
+in APPPATH\Views\menu\cart.php on line 125.
+ 1 APPPATH\Views\menu\cart.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product_image', 'D:\\customize_gifts\\app\\Views\\menu\\cart.php', 125)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\menu\\cart.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('menu/cart', [], true)
+ 5 APPPATH\Controllers\PolicyController.php(36): view('menu/cart')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PolicyController->cart()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PolicyController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-24 16:45:28 --> ErrorException: Undefined variable $product_image
+[Method: GET, Route: cart]
+in APPPATH\Views\menu\cart.php on line 22.
+ 1 APPPATH\Views\menu\cart.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product_image', 'D:\\customize_gifts\\app\\Views\\menu\\cart.php', 22)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\menu\\cart.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('menu/cart', [], true)
+ 5 APPPATH\Controllers\PolicyController.php(36): view('menu/cart')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PolicyController->cart()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PolicyController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-24 16:46:13 --> ErrorException: Undefined variable $weight
+[Method: GET, Route: cart]
+in APPPATH\Views\menu\cart.php on line 108.
+ 1 APPPATH\Views\menu\cart.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $weight', 'D:\\customize_gifts\\app\\Views\\menu\\cart.php', 108)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\menu\\cart.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('menu/cart', [], true)
+ 5 APPPATH\Controllers\PolicyController.php(36): view('menu/cart')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PolicyController->cart()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PolicyController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-24 17:25:02 --> ParseError: syntax error, unexpected token "<", expecting "function" or "const"
+[Method: POST, Route: add-cart]
+in APPPATH\Controllers\CartController.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\customize_gifts\\app\\Controllers\\CartController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CartController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CartController')
+ 4 SYSTEMPATH\Router\Router.php(792): class_exists('\\App\\Controllers\\CartController')
+ 5 SYSTEMPATH\Router\Router.php(230): CodeIgniter\Router\Router->processRouteAttributes()
+ 6 SYSTEMPATH\CodeIgniter.php(829): CodeIgniter\Router\Router->handle('add-cart')
+ 7 SYSTEMPATH\CodeIgniter.php(441): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-24 17:48:41 --> ErrorException: Undefined array key "final_price"
+[Method: POST, Route: add-cart]
+in APPPATH\Views\menu\cart.php on line 156.
+ 1 APPPATH\Views\menu\cart.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "final_price"', 'D:\\customize_gifts\\app\\Views\\menu\\cart.php', 156)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\menu\\cart.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('menu/cart', [], true)
+ 5 APPPATH\Controllers\CartController.php(28): view('menu/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\CartController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-24 17:49:43 --> ErrorException: Undefined array key "weight"
+[Method: POST, Route: add-cart]
+in APPPATH\Views\menu\cart.php on line 158.
+ 1 APPPATH\Views\menu\cart.php(158): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "weight"', 'D:\\customize_gifts\\app\\Views\\menu\\cart.php', 158)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\menu\\cart.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('menu/cart', [], true)
+ 5 APPPATH\Controllers\CartController.php(28): view('menu/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\CartController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-24 17:51:55 --> ErrorException: Undefined array key "final_price"
+[Method: POST, Route: add-cart]
+in APPPATH\Views\menu\cart.php on line 156.
+ 1 APPPATH\Views\menu\cart.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "final_price"', 'D:\\customize_gifts\\app\\Views\\menu\\cart.php', 156)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\menu\\cart.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('menu/cart', [], true)
+ 5 APPPATH\Controllers\CartController.php(28): view('menu/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\CartController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-24 17:56:29 --> ErrorException: Undefined array key "final_price"
+[Method: POST, Route: add-cart]
+in APPPATH\Views\menu\cart.php on line 110.
+ 1 APPPATH\Views\menu\cart.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "final_price"', 'D:\\customize_gifts\\app\\Views\\menu\\cart.php', 110)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\menu\\cart.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('menu/cart', [], true)
+ 5 APPPATH\Controllers\CartController.php(28): view('menu/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\CartController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-24 17:57:26 --> ErrorException: Undefined array key "final_price"
+[Method: POST, Route: add-cart]
+in APPPATH\Views\menu\cart.php on line 110.
+ 1 APPPATH\Views\menu\cart.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "final_price"', 'D:\\customize_gifts\\app\\Views\\menu\\cart.php', 110)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\menu\\cart.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('menu/cart', [], true)
+ 5 APPPATH\Controllers\CartController.php(27): view('menu/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\CartController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-24 18:00:17 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "cart.php"
+[Method: POST, Route: cart]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cart.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('cart', [], true)
+ 3 APPPATH\Controllers\CartController.php(16): view('cart', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\CartController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-24 18:00:59 --> ErrorException: Undefined variable $product_image
+[Method: GET, Route: cart]
+in APPPATH\Views\menu\cart.php on line 22.
+ 1 APPPATH\Views\menu\cart.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product_image', 'D:\\customize_gifts\\app\\Views\\menu\\cart.php', 22)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\menu\\cart.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('menu/cart', [], true)
+ 5 APPPATH\Controllers\PolicyController.php(36): view('menu/cart')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PolicyController->cart()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PolicyController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-24 18:01:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "cart.php"
+[Method: POST, Route: cart]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cart.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('cart', [], true)
+ 3 APPPATH\Controllers\CartController.php(16): view('cart', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\CartController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-24 18:02:40 --> ErrorException: Undefined variable $weight
+[Method: GET, Route: cart]
+in APPPATH\Views\menu\cart.php on line 108.
+ 1 APPPATH\Views\menu\cart.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $weight', 'D:\\customize_gifts\\app\\Views\\menu\\cart.php', 108)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\menu\\cart.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('menu/cart', [], true)
+ 5 APPPATH\Controllers\PolicyController.php(36): view('menu/cart')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PolicyController->cart()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PolicyController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-24 18:05:05 --> ErrorException: Undefined array key "final_price"
+[Method: POST, Route: add-cart]
+in APPPATH\Views\menu\cart.php on line 103.
+ 1 APPPATH\Views\menu\cart.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "final_price"', 'D:\\customize_gifts\\app\\Views\\menu\\cart.php', 103)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\menu\\cart.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('menu/cart', [], true)
+ 5 APPPATH\Controllers\CartController.php(28): view('menu/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\CartController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-24 18:09:26 --> ErrorException: Undefined array key "product_image"
+[Method: POST, Route: add-cart]
+in APPPATH\Views\menu\cart.php on line 7.
+ 1 APPPATH\Views\menu\cart.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_image"', 'D:\\customize_gifts\\app\\Views\\menu\\cart.php', 7)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\menu\\cart.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('menu/cart', [], true)
+ 5 APPPATH\Controllers\CartController.php(28): view('menu/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\CartController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-24 18:11:18 --> ErrorException: Undefined array key "weight"
+[Method: POST, Route: add-cart]
+in APPPATH\Views\menu\cart.php on line 11.
+ 1 APPPATH\Views\menu\cart.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "weight"', 'D:\\customize_gifts\\app\\Views\\menu\\cart.php', 11)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\menu\\cart.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('menu/cart', [], true)
+ 5 APPPATH\Controllers\CartController.php(28): view('menu/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\CartController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-24 18:11:35 --> ErrorException: Undefined array key "product_image"
+[Method: POST, Route: add-cart]
+in APPPATH\Views\menu\cart.php on line 7.
+ 1 APPPATH\Views\menu\cart.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_image"', 'D:\\customize_gifts\\app\\Views\\menu\\cart.php', 7)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\menu\\cart.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('menu/cart', [], true)
+ 5 APPPATH\Controllers\CartController.php(28): view('menu/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\CartController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-24 18:14:35 --> ErrorException: Undefined array key "product_image"
+[Method: POST, Route: add-cart]
+in APPPATH\Views\menu\cart.php on line 6.
+ 1 APPPATH\Views\menu\cart.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_image"', 'D:\\customize_gifts\\app\\Views\\menu\\cart.php', 6)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\menu\\cart.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('menu/cart', [], true)
+ 5 APPPATH\Controllers\CartController.php(28): view('menu/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\CartController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-24 18:14:52 --> ErrorException: Undefined array key ""
+[Method: POST, Route: add-cart]
+in APPPATH\Views\menu\cart.php on line 6.
+ 1 APPPATH\Views\menu\cart.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key ""', 'D:\\customize_gifts\\app\\Views\\menu\\cart.php', 6)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\menu\\cart.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('menu/cart', [], true)
+ 5 APPPATH\Controllers\CartController.php(28): view('menu/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\CartController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-24 18:16:54 --> ErrorException: Undefined array key "weight"
+[Method: POST, Route: add-cart]
+in APPPATH\Views\menu\cart.php on line 11.
+ 1 APPPATH\Views\menu\cart.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "weight"', 'D:\\customize_gifts\\app\\Views\\menu\\cart.php', 11)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\menu\\cart.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('menu/cart', [], true)
+ 5 APPPATH\Controllers\CartController.php(28): view('menu/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\CartController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-24 18:17:59 --> ErrorException: Undefined array key "final_price"
+[Method: POST, Route: add-cart]
+in APPPATH\Views\menu\cart.php on line 6.
+ 1 APPPATH\Views\menu\cart.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "final_price"', 'D:\\customize_gifts\\app\\Views\\menu\\cart.php', 6)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\menu\\cart.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('menu/cart', [], true)
+ 5 APPPATH\Controllers\CartController.php(28): view('menu/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\CartController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-24 18:20:50 --> ErrorException: Undefined array key "product_image"
+[Method: POST, Route: add-cart]
+in APPPATH\Views\menu\cart.php on line 7.
+ 1 APPPATH\Views\menu\cart.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_image"', 'D:\\customize_gifts\\app\\Views\\menu\\cart.php', 7)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\menu\\cart.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('menu/cart', [], true)
+ 5 APPPATH\Controllers\CartController.php(28): view('menu/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\CartController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-24 18:23:01 --> ErrorException: Undefined array key "product_image"
+[Method: POST, Route: add-cart]
+in APPPATH\Views\menu\cart.php on line 7.
+ 1 APPPATH\Views\menu\cart.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_image"', 'D:\\customize_gifts\\app\\Views\\menu\\cart.php', 7)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\menu\\cart.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('menu/cart', [], true)
+ 5 APPPATH\Controllers\CartController.php(28): view('menu/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\CartController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-24 18:23:48 --> ErrorException: Undefined array key "product_image"
+[Method: POST, Route: add-cart]
+in APPPATH\Views\menu\cart.php on line 7.
+ 1 APPPATH\Views\menu\cart.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_image"', 'D:\\customize_gifts\\app\\Views\\menu\\cart.php', 7)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\menu\\cart.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('menu/cart', [], true)
+ 5 APPPATH\Controllers\CartController.php(28): view('menu/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\CartController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-24 18:26:54 --> ErrorException: Undefined array key "product_image"
+[Method: POST, Route: add-cart]
+in APPPATH\Views\menu\cart.php on line 7.
+ 1 APPPATH\Views\menu\cart.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_image"', 'D:\\customize_gifts\\app\\Views\\menu\\cart.php', 7)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\menu\\cart.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('menu/cart', [], true)
+ 5 APPPATH\Controllers\CartController.php(28): view('menu/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\CartController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-24 18:27:29 --> ErrorException: Undefined array key "product_image"
+[Method: POST, Route: add-cart]
+in APPPATH\Views\menu\cart.php on line 7.
+ 1 APPPATH\Views\menu\cart.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_image"', 'D:\\customize_gifts\\app\\Views\\menu\\cart.php', 7)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\menu\\cart.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('menu/cart', [], true)
+ 5 APPPATH\Controllers\CartController.php(28): view('menu/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\CartController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-24 18:30:16 --> ErrorException: Undefined array key "product_image"
+[Method: POST, Route: add-cart]
+in APPPATH\Views\menu\cart.php on line 7.
+ 1 APPPATH\Views\menu\cart.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_image"', 'D:\\customize_gifts\\app\\Views\\menu\\cart.php', 7)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\menu\\cart.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('menu/cart', [], true)
+ 5 APPPATH\Controllers\CartController.php(28): view('menu/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\CartController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-24 18:32:10 --> ErrorException: Undefined array key "product_image"
+[Method: POST, Route: add-cart]
+in APPPATH\Views\menu\cart.php on line 8.
+ 1 APPPATH\Views\menu\cart.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_image"', 'D:\\customize_gifts\\app\\Views\\menu\\cart.php', 8)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\menu\\cart.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('menu/cart', [], true)
+ 5 APPPATH\Controllers\CartController.php(28): view('menu/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\CartController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')

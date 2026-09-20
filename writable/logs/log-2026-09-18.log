@@ -1,0 +1,75 @@
+CRITICAL - 2026-09-18 15:11:34 --> ErrorException: Undefined array key "brand_name"
+[Method: GET, Route: products/view_brands]
+in APPPATH\Views\admin\products\view_brands.php on line 258.
+ 1 APPPATH\Views\admin\products\view_brands.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "brand_name"', 'D:\\customize_gifts\\app\\Views\\admin\\products\\view_brands.php', 258)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\products\\view_brands.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/products/view_brands', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(64): view('admin/products/view_brands', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Product->viewBrands()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-09-18 15:13:02 --> ErrorException: Undefined array key "brand_name"
+[Method: GET, Route: products/view_brands]
+in APPPATH\Views\admin\products\view_brands.php on line 258.
+ 1 APPPATH\Views\admin\products\view_brands.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "brand_name"', 'D:\\customize_gifts\\app\\Views\\admin\\products\\view_brands.php', 258)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\products\\view_brands.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/products/view_brands', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(64): view('admin/products/view_brands', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Product->viewBrands()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-09-18 15:13:12 --> ErrorException: Undefined array key "brand_name"
+[Method: GET, Route: products/view_brands]
+in APPPATH\Views\admin\products\view_brands.php on line 258.
+ 1 APPPATH\Views\admin\products\view_brands.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "brand_name"', 'D:\\customize_gifts\\app\\Views\\admin\\products\\view_brands.php', 258)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\products\\view_brands.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/products/view_brands', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(64): view('admin/products/view_brands', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Product->viewBrands()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-09-18 15:14:02 --> ErrorException: Undefined array key "brand_name"
+[Method: GET, Route: products/view_brands]
+in APPPATH\Views\admin\products\view_brands.php on line 258.
+ 1 APPPATH\Views\admin\products\view_brands.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "brand_name"', 'D:\\customize_gifts\\app\\Views\\admin\\products\\view_brands.php', 258)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\products\\view_brands.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/products/view_brands', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(64): view('admin/products/view_brands', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Product->viewBrands()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-09-18 15:23:22 --> ErrorException: Undefined array key "brand_name"
+[Method: GET, Route: products/view_brands]
+in APPPATH\Views\admin\products\view_brands.php on line 258.
+ 1 APPPATH\Views\admin\products\view_brands.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "brand_name"', 'D:\\customize_gifts\\app\\Views\\admin\\products\\view_brands.php', 258)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\products\\view_brands.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/products/view_brands', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(64): view('admin/products/view_brands', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Product->viewBrands()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')

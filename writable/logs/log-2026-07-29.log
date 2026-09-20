@@ -1,0 +1,28 @@
+CRITICAL - 2026-07-29 14:18:30 --> ErrorException: Undefined array key "payment_date"
+[Method: GET, Route: admin/order/view/ORD20260729140438]
+in APPPATH\Views\admin\order\view.php on line 436.
+ 1 APPPATH\Views\admin\order\view.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "payment_date"', 'D:\\customize_gifts\\app\\Views\\admin\\order\\view.php', 436)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\order\\view.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/order/view', [], true)
+ 5 APPPATH\Controllers\Admin\Order.php(25): view('admin/order/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Order->view('ORD20260729140438')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-29 14:37:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "user/login.php"
+[Method: GET, Route: login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/login.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('user/login', [], true)
+ 3 APPPATH\Controllers\UserController.php(9): view('user/login')
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\UserController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')

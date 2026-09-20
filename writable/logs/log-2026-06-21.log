@@ -1,0 +1,584 @@
+CRITICAL - 2026-06-21 07:33:22 --> ErrorException: Undefined variable $related_products
+[Method: GET, Route: product_view/1]
+in APPPATH\Views\pages\product_view.php on line 661.
+ 1 APPPATH\Views\pages\product_view.php(661): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $related_products', 'D:\\customize_gifts\\app\\Views\\pages\\product_view.php', 661)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/product_view', [], true)
+ 5 APPPATH\Controllers\Admin\Pages\Shop.php(27): view('pages/product_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->product_view('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-21 07:35:02 --> ErrorException: Undefined variable $products
+[Method: GET, Route: product_view/1]
+in APPPATH\Views\pages\product_view.php on line 661.
+ 1 APPPATH\Views\pages\product_view.php(661): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'D:\\customize_gifts\\app\\Views\\pages\\product_view.php', 661)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/product_view', [], true)
+ 5 APPPATH\Controllers\Admin\Pages\Shop.php(27): view('pages/product_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->product_view('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-21 07:35:50 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: product_view/1]
+in APPPATH\Views\pages\product_view.php on line 663.
+ 1 SYSTEMPATH\View\View.php(240): include()
+ 2 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/product_view', [], true)
+ 4 APPPATH\Controllers\Admin\Pages\Shop.php(27): view('pages/product_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->product_view('1')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-21 07:38:10 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: product_view/1]
+in APPPATH\Views\pages\product_view.php on line 663.
+ 1 SYSTEMPATH\View\View.php(240): include()
+ 2 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/product_view', [], true)
+ 4 APPPATH\Controllers\Admin\Pages\Shop.php(27): view('pages/product_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->product_view('1')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-21 07:39:31 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: product_view/1]
+in APPPATH\Views\pages\product_view.php on line 661.
+ 1 SYSTEMPATH\View\View.php(240): include()
+ 2 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/product_view', [], true)
+ 4 APPPATH\Controllers\Admin\Pages\Shop.php(27): view('pages/product_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->product_view('1')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-21 07:39:54 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: product_view/1]
+in APPPATH\Views\pages\product_view.php on line 661.
+ 1 SYSTEMPATH\View\View.php(240): include()
+ 2 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/product_view', [], true)
+ 4 APPPATH\Controllers\Admin\Pages\Shop.php(27): view('pages/product_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->product_view('1')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-21 07:41:03 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: product_view/1]
+in APPPATH\Views\pages\product_view.php on line 661.
+ 1 SYSTEMPATH\View\View.php(240): include()
+ 2 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/product_view', [], true)
+ 4 APPPATH\Controllers\Admin\Pages\Shop.php(27): view('pages/product_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->product_view('1')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-21 07:41:09 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: product_view/1]
+in APPPATH\Views\pages\product_view.php on line 661.
+ 1 SYSTEMPATH\View\View.php(240): include()
+ 2 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/product_view', [], true)
+ 4 APPPATH\Controllers\Admin\Pages\Shop.php(27): view('pages/product_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->product_view('1')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-21 11:26:00 --> ErrorException: Undefined variable $related_products
+[Method: GET, Route: product_view/7]
+in APPPATH\Views\pages\product_view.php on line 550.
+ 1 APPPATH\Views\pages\product_view.php(550): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $related_products', 'D:\\customize_gifts\\app\\Views\\pages\\product_view.php', 550)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/product_view', [], true)
+ 5 APPPATH\Controllers\Admin\Pages\Shop.php(27): view('pages/product_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->product_view('7')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-21 11:27:36 --> ErrorException: Undefined variable $related_products
+[Method: GET, Route: product_view/7]
+in APPPATH\Views\pages\product_view.php on line 550.
+ 1 APPPATH\Views\pages\product_view.php(550): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $related_products', 'D:\\customize_gifts\\app\\Views\\pages\\product_view.php', 550)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/product_view', [], true)
+ 5 APPPATH\Controllers\Admin\Pages\Shop.php(27): view('pages/product_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->product_view('7')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-21 11:27:38 --> ErrorException: Undefined variable $related_products
+[Method: GET, Route: product_view/7]
+in APPPATH\Views\pages\product_view.php on line 550.
+ 1 APPPATH\Views\pages\product_view.php(550): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $related_products', 'D:\\customize_gifts\\app\\Views\\pages\\product_view.php', 550)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/product_view', [], true)
+ 5 APPPATH\Controllers\Admin\Pages\Shop.php(27): view('pages/product_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->product_view('7')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-21 11:27:44 --> ErrorException: Undefined variable $related_products
+[Method: GET, Route: product_view/7]
+in APPPATH\Views\pages\product_view.php on line 550.
+ 1 APPPATH\Views\pages\product_view.php(550): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $related_products', 'D:\\customize_gifts\\app\\Views\\pages\\product_view.php', 550)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/product_view', [], true)
+ 5 APPPATH\Controllers\Admin\Pages\Shop.php(27): view('pages/product_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->product_view('7')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-21 11:29:20 --> ErrorException: Undefined variable $related_products
+[Method: GET, Route: product_view/7]
+in APPPATH\Views\pages\product_view.php on line 550.
+ 1 APPPATH\Views\pages\product_view.php(550): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $related_products', 'D:\\customize_gifts\\app\\Views\\pages\\product_view.php', 550)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/product_view', [], true)
+ 5 APPPATH\Controllers\Admin\Pages\Shop.php(27): view('pages/product_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->product_view('7')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-21 11:42:21 --> ErrorException: Undefined variable $category
+[Method: GET, Route: product_view/6]
+in APPPATH\Views\pages\product_view.php on line 549.
+ 1 APPPATH\Views\pages\product_view.php(549): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'D:\\customize_gifts\\app\\Views\\pages\\product_view.php', 549)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/product_view', [], true)
+ 5 APPPATH\Controllers\Admin\Pages\Shop.php(27): view('pages/product_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->product_view('6')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-21 11:45:30 --> ErrorException: Undefined variable $category
+[Method: GET, Route: product_view/6]
+in APPPATH\Views\pages\product_view.php on line 549.
+ 1 APPPATH\Views\pages\product_view.php(549): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'D:\\customize_gifts\\app\\Views\\pages\\product_view.php', 549)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/product_view', [], true)
+ 5 APPPATH\Controllers\Admin\Pages\Shop.php(27): view('pages/product_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->product_view('6')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-21 11:46:25 --> ErrorException: Undefined variable $category
+[Method: GET, Route: product_view/6]
+in APPPATH\Views\pages\product_view.php on line 549.
+ 1 APPPATH\Views\pages\product_view.php(549): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'D:\\customize_gifts\\app\\Views\\pages\\product_view.php', 549)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/product_view', [], true)
+ 5 APPPATH\Controllers\Admin\Pages\Shop.php(27): view('pages/product_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->product_view('6')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-21 11:47:02 --> ErrorException: Undefined variable $category
+[Method: GET, Route: product_view/6]
+in APPPATH\Views\pages\product_view.php on line 549.
+ 1 APPPATH\Views\pages\product_view.php(549): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'D:\\customize_gifts\\app\\Views\\pages\\product_view.php', 549)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/product_view', [], true)
+ 5 APPPATH\Controllers\Admin\Pages\Shop.php(27): view('pages/product_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->product_view('6')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-21 11:47:06 --> ErrorException: Undefined variable $category
+[Method: GET, Route: product_view/7]
+in APPPATH\Views\pages\product_view.php on line 549.
+ 1 APPPATH\Views\pages\product_view.php(549): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'D:\\customize_gifts\\app\\Views\\pages\\product_view.php', 549)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/product_view', [], true)
+ 5 APPPATH\Controllers\Admin\Pages\Shop.php(27): view('pages/product_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->product_view('7')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-21 11:47:39 --> ErrorException: Undefined variable $category
+[Method: GET, Route: product_view/7]
+in APPPATH\Views\pages\product_view.php on line 549.
+ 1 APPPATH\Views\pages\product_view.php(549): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'D:\\customize_gifts\\app\\Views\\pages\\product_view.php', 549)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/product_view', [], true)
+ 5 APPPATH\Controllers\Admin\Pages\Shop.php(27): view('pages/product_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->product_view('7')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-21 11:47:44 --> ErrorException: Undefined variable $category
+[Method: GET, Route: product_view/6]
+in APPPATH\Views\pages\product_view.php on line 549.
+ 1 APPPATH\Views\pages\product_view.php(549): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'D:\\customize_gifts\\app\\Views\\pages\\product_view.php', 549)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/product_view', [], true)
+ 5 APPPATH\Controllers\Admin\Pages\Shop.php(27): view('pages/product_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->product_view('6')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-21 11:49:10 --> ErrorException: Undefined variable $category
+[Method: GET, Route: product_view/6]
+in APPPATH\Views\pages\product_view.php on line 549.
+ 1 APPPATH\Views\pages\product_view.php(549): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'D:\\customize_gifts\\app\\Views\\pages\\product_view.php', 549)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/product_view', [], true)
+ 5 APPPATH\Controllers\Admin\Pages\Shop.php(27): view('pages/product_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->product_view('6')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-21 11:51:45 --> ErrorException: Undefined variable $category
+[Method: GET, Route: product_view/6]
+in APPPATH\Views\pages\product_view.php on line 549.
+ 1 APPPATH\Views\pages\product_view.php(549): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'D:\\customize_gifts\\app\\Views\\pages\\product_view.php', 549)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/product_view', [], true)
+ 5 APPPATH\Controllers\Admin\Pages\Shop.php(27): view('pages/product_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->product_view('6')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-21 11:53:46 --> ErrorException: Undefined variable $category
+[Method: GET, Route: product_view/6]
+in APPPATH\Views\pages\product_view.php on line 549.
+ 1 APPPATH\Views\pages\product_view.php(549): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'D:\\customize_gifts\\app\\Views\\pages\\product_view.php', 549)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/product_view', [], true)
+ 5 APPPATH\Controllers\Admin\Pages\Shop.php(27): view('pages/product_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->product_view('6')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-21 11:54:47 --> ErrorException: Undefined variable $category
+[Method: GET, Route: product_view/6]
+in APPPATH\Views\pages\product_view.php on line 549.
+ 1 APPPATH\Views\pages\product_view.php(549): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'D:\\customize_gifts\\app\\Views\\pages\\product_view.php', 549)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/product_view', [], true)
+ 5 APPPATH\Controllers\Admin\Pages\Shop.php(27): view('pages/product_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->product_view('6')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-21 11:57:18 --> ErrorException: Undefined variable $category
+[Method: GET, Route: product_view/6]
+in APPPATH\Views\pages\product_view.php on line 549.
+ 1 APPPATH\Views\pages\product_view.php(549): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'D:\\customize_gifts\\app\\Views\\pages\\product_view.php', 549)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/product_view', [], true)
+ 5 APPPATH\Controllers\Admin\Pages\Shop.php(27): view('pages/product_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->product_view('6')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-21 12:02:20 --> ErrorException: Undefined variable $product
+[Method: POST, Route: relatedProducts]
+in APPPATH\Views\pages\product_view.php on line 418.
+ 1 APPPATH\Views\pages\product_view.php(418): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'D:\\customize_gifts\\app\\Views\\pages\\product_view.php', 418)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/product_view', [], true)
+ 5 APPPATH\Controllers\Admin\Pages\Shop.php(34): view('pages/product_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->relatedProducts()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-21 12:02:22 --> ErrorException: Undefined variable $product
+[Method: POST, Route: relatedProducts]
+in APPPATH\Views\pages\product_view.php on line 418.
+ 1 APPPATH\Views\pages\product_view.php(418): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'D:\\customize_gifts\\app\\Views\\pages\\product_view.php', 418)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/product_view', [], true)
+ 5 APPPATH\Controllers\Admin\Pages\Shop.php(34): view('pages/product_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->relatedProducts()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-21 12:03:31 --> ErrorException: Undefined variable $product
+[Method: POST, Route: relatedProducts]
+in APPPATH\Views\pages\product_view.php on line 418.
+ 1 APPPATH\Views\pages\product_view.php(418): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'D:\\customize_gifts\\app\\Views\\pages\\product_view.php', 418)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/product_view', [], true)
+ 5 APPPATH\Controllers\Admin\Pages\Shop.php(34): view('pages/product_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->relatedProducts()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-21 12:04:03 --> ErrorException: Undefined variable $category
+[Method: GET, Route: product_view/7]
+in APPPATH\Views\pages\product_view.php on line 550.
+ 1 APPPATH\Views\pages\product_view.php(550): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'D:\\customize_gifts\\app\\Views\\pages\\product_view.php', 550)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/product_view', [], true)
+ 5 APPPATH\Controllers\Admin\Pages\Shop.php(27): view('pages/product_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->product_view('7')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-21 12:08:58 --> ErrorException: Undefined variable $category
+[Method: GET, Route: product_view/7]
+in APPPATH\Views\pages\product_view.php on line 550.
+ 1 APPPATH\Views\pages\product_view.php(550): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'D:\\customize_gifts\\app\\Views\\pages\\product_view.php', 550)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/product_view', [], true)
+ 5 APPPATH\Controllers\Admin\Pages\Shop.php(27): view('pages/product_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->product_view('7')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-21 12:09:00 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: shop/Cashews]
+in APPPATH\Views\pages\shop.php on line 417.
+ 1 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/shop', [], true)
+ 3 APPPATH\Controllers\Home.php(47): view('pages/shop', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Home->shop('Cashews')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-21 12:09:03 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: shop/Cashews]
+in APPPATH\Views\pages\shop.php on line 417.
+ 1 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/shop', [], true)
+ 3 APPPATH\Controllers\Home.php(47): view('pages/shop', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Home->shop('Cashews')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-21 12:10:50 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: product_view/3]
+in APPPATH\Views\pages\product_view.php on line 650.
+ 1 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/product_view', [], true)
+ 3 APPPATH\Controllers\Admin\Pages\Shop.php(27): view('pages/product_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->product_view('3')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-21 12:11:47 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: product_view/3]
+in APPPATH\Views\pages\product_view.php on line 646.
+ 1 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/product_view', [], true)
+ 3 APPPATH\Controllers\Admin\Pages\Shop.php(27): view('pages/product_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->product_view('3')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-21 12:11:55 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: product_view/3]
+in APPPATH\Views\pages\product_view.php on line 645.
+ 1 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/product_view', [], true)
+ 3 APPPATH\Controllers\Admin\Pages\Shop.php(27): view('pages/product_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->product_view('3')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-21 12:13:58 --> ErrorException: Undefined variable $categories
+[Method: GET, Route: product_view/3]
+in APPPATH\Views\pages\product_view.php on line 550.
+ 1 APPPATH\Views\pages\product_view.php(550): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'D:\\customize_gifts\\app\\Views\\pages\\product_view.php', 550)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/product_view', [], true)
+ 5 APPPATH\Controllers\Admin\Pages\Shop.php(27): view('pages/product_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->product_view('3')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-21 12:15:35 --> ErrorException: Undefined variable $category
+[Method: GET, Route: product_view/3]
+in APPPATH\Views\pages\product_view.php on line 555.
+ 1 APPPATH\Views\pages\product_view.php(555): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'D:\\customize_gifts\\app\\Views\\pages\\product_view.php', 555)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/product_view', [], true)
+ 5 APPPATH\Controllers\Admin\Pages\Shop.php(27): view('pages/product_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->product_view('3')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-21 12:40:49 --> ErrorException: Undefined variable $related_products
+[Method: GET, Route: product_view/4]
+in APPPATH\Views\pages\product_view.php on line 550.
+ 1 APPPATH\Views\pages\product_view.php(550): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $related_products', 'D:\\customize_gifts\\app\\Views\\pages\\product_view.php', 550)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/product_view', [], true)
+ 5 APPPATH\Controllers\Admin\Pages\Shop.php(27): view('pages/product_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->product_view('4')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-21 13:22:01 --> ErrorException: Undefined variable $related_products
+[Method: GET, Route: product_view/7]
+in APPPATH\Views\pages\product_view.php on line 550.
+ 1 APPPATH\Views\pages\product_view.php(550): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $related_products', 'D:\\customize_gifts\\app\\Views\\pages\\product_view.php', 550)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/product_view', [], true)
+ 5 APPPATH\Controllers\Admin\Pages\Shop.php(27): view('pages/product_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->product_view('7')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-21 16:26:54 --> ErrorException: Undefined variable $related_products
+[Method: GET, Route: product_view/1]
+in APPPATH\Views\pages\product_view.php on line 550.
+ 1 APPPATH\Views\pages\product_view.php(550): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $related_products', 'D:\\customize_gifts\\app\\Views\\pages\\product_view.php', 550)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/product_view', [], true)
+ 5 APPPATH\Controllers\Admin\Pages\Shop.php(27): view('pages/product_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->product_view('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')

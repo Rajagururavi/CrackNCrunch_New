@@ -1,0 +1,562 @@
+CRITICAL - 2026-08-02 08:30:57 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/products/insert_products.php"
+[Method: GET, Route: products/view_products]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/products/insert_products.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/products/insert_products', [], true)
+ 3 APPPATH\Controllers\Admin\Panel.php(25): view('admin/products/insert_products')
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->insertProducts()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-08-02 08:31:57 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/products/insert_products.php"
+[Method: GET, Route: products/view_products]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/products/insert_products.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/products/insert_products', [], true)
+ 3 APPPATH\Controllers\Admin\Panel.php(25): view('admin/products/insert_products')
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->insertProducts()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-08-02 08:32:08 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/products/insert_products.php"
+[Method: GET, Route: products/view_products]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/products/insert_products.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/products/insert_products', [], true)
+ 3 APPPATH\Controllers\Admin\Panel.php(25): view('admin/products/insert_products')
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->insertProducts()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-08-02 10:09:43 --> ErrorException: Undefined variable $brands
+[Method: GET, Route: products/view_products]
+in APPPATH\Views\admin\products\view_products.php on line 239.
+ 1 APPPATH\Views\admin\products\view_products.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $brands', 'D:\\customize_gifts\\app\\Views\\admin\\products\\view_products.php', 239)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\products\\view_products.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/products/view_products', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(12): view('admin/products/view_products', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Product->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-08-02 10:18:59 --> ErrorException: Undefined variable $brands
+[Method: GET, Route: products/view_products]
+in APPPATH\Views\admin\products\view_products.php on line 239.
+ 1 APPPATH\Views\admin\products\view_products.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $brands', 'D:\\customize_gifts\\app\\Views\\admin\\products\\view_products.php', 239)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\products\\view_products.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/products/view_products', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(12): view('admin/products/view_products', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Product->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-08-02 10:19:17 --> ErrorException: Undefined variable $brands
+[Method: GET, Route: products/view_products]
+in APPPATH\Views\admin\products\view_products.php on line 239.
+ 1 APPPATH\Views\admin\products\view_products.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $brands', 'D:\\customize_gifts\\app\\Views\\admin\\products\\view_products.php', 239)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\products\\view_products.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/products/view_products', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(12): view('admin/products/view_products', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Product->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-08-02 10:19:52 --> ErrorException: Undefined variable $brands
+[Method: GET, Route: products/view_products]
+in APPPATH\Views\admin\products\view_products.php on line 239.
+ 1 APPPATH\Views\admin\products\view_products.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $brands', 'D:\\customize_gifts\\app\\Views\\admin\\products\\view_products.php', 239)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\products\\view_products.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/products/view_products', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(12): view('admin/products/view_products', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Product->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-08-02 10:20:34 --> ErrorException: Undefined variable $brands
+[Method: GET, Route: products/view_products]
+in APPPATH\Views\admin\products\view_products.php on line 239.
+ 1 APPPATH\Views\admin\products\view_products.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $brands', 'D:\\customize_gifts\\app\\Views\\admin\\products\\view_products.php', 239)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\products\\view_products.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/products/view_products', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(12): view('admin/products/view_products', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Product->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-08-02 10:20:49 --> ErrorException: Undefined variable $brands
+[Method: GET, Route: products/view_products]
+in APPPATH\Views\admin\products\view_products.php on line 239.
+ 1 APPPATH\Views\admin\products\view_products.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $brands', 'D:\\customize_gifts\\app\\Views\\admin\\products\\view_products.php', 239)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\products\\view_products.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/products/view_products', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(12): view('admin/products/view_products', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Product->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-08-02 10:20:53 --> ErrorException: Undefined variable $brands
+[Method: GET, Route: products/view_products]
+in APPPATH\Views\admin\products\view_products.php on line 239.
+ 1 APPPATH\Views\admin\products\view_products.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $brands', 'D:\\customize_gifts\\app\\Views\\admin\\products\\view_products.php', 239)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\products\\view_products.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/products/view_products', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(12): view('admin/products/view_products', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Product->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-08-02 10:21:21 --> ErrorException: Undefined variable $brands
+[Method: GET, Route: products/view_products]
+in APPPATH\Views\admin\products\view_products.php on line 239.
+ 1 APPPATH\Views\admin\products\view_products.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $brands', 'D:\\customize_gifts\\app\\Views\\admin\\products\\view_products.php', 239)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\products\\view_products.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/products/view_products', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(12): view('admin/products/view_products', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Product->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-08-02 10:23:27 --> ErrorException: Undefined variable $brands
+[Method: GET, Route: products/view_products]
+in APPPATH\Views\admin\products\view_products.php on line 239.
+ 1 APPPATH\Views\admin\products\view_products.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $brands', 'D:\\customize_gifts\\app\\Views\\admin\\products\\view_products.php', 239)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\products\\view_products.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/products/view_products', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(12): view('admin/products/view_products', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Product->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-08-02 10:23:30 --> ErrorException: Undefined variable $brands
+[Method: GET, Route: products/view_products]
+in APPPATH\Views\admin\products\view_products.php on line 239.
+ 1 APPPATH\Views\admin\products\view_products.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $brands', 'D:\\customize_gifts\\app\\Views\\admin\\products\\view_products.php', 239)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\products\\view_products.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/products/view_products', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(12): view('admin/products/view_products', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Product->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-08-02 10:24:49 --> ErrorException: Undefined variable $brands
+[Method: GET, Route: products/view_products]
+in APPPATH\Views\admin\products\view_products.php on line 239.
+ 1 APPPATH\Views\admin\products\view_products.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $brands', 'D:\\customize_gifts\\app\\Views\\admin\\products\\view_products.php', 239)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\products\\view_products.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/products/view_products', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(12): view('admin/products/view_products', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Product->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-08-02 10:25:46 --> ErrorException: Undefined variable $brands
+[Method: GET, Route: products/view_products]
+in APPPATH\Views\admin\products\view_products.php on line 239.
+ 1 APPPATH\Views\admin\products\view_products.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $brands', 'D:\\customize_gifts\\app\\Views\\admin\\products\\view_products.php', 239)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\products\\view_products.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/products/view_products', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(12): view('admin/products/view_products', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Product->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-08-02 10:33:41 --> ErrorException: Undefined variable $brands
+[Method: GET, Route: products/view_products]
+in APPPATH\Views\admin\products\view_products.php on line 239.
+ 1 APPPATH\Views\admin\products\view_products.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $brands', 'D:\\customize_gifts\\app\\Views\\admin\\products\\view_products.php', 239)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\products\\view_products.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/products/view_products', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(12): view('admin/products/view_products', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Product->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-08-02 10:33:49 --> ErrorException: Undefined variable $brands
+[Method: GET, Route: products/view_products]
+in APPPATH\Views\admin\products\view_products.php on line 239.
+ 1 APPPATH\Views\admin\products\view_products.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $brands', 'D:\\customize_gifts\\app\\Views\\admin\\products\\view_products.php', 239)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\products\\view_products.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/products/view_products', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(12): view('admin/products/view_products', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Product->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-08-02 10:34:00 --> ErrorException: Undefined variable $categories
+[Method: GET, Route: products/view_products]
+in APPPATH\Views\admin\products\view_products.php on line 240.
+ 1 APPPATH\Views\admin\products\view_products.php(240): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'D:\\customize_gifts\\app\\Views\\admin\\products\\view_products.php', 240)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\products\\view_products.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/products/view_products', [], true)
+ 5 APPPATH\Controllers\Admin\Product.php(12): view('admin/products/view_products', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Product->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-08-02 11:43:41 --> ErrorException: Undefined variable $p
+[Method: GET, Route: /]
+in APPPATH\Views\pages\home.php on line 482.
+ 1 APPPATH\Views\pages\home.php(482): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $p', 'D:\\customize_gifts\\app\\Views\\pages\\home.php', 482)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\Home.php(20): view('pages/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-08-02 12:13:06 --> ErrorException: Undefined variable $p
+[Method: GET, Route: product_view/11]
+in APPPATH\Views\pages\product_view.php on line 451.
+ 1 APPPATH\Views\pages\product_view.php(451): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $p', 'D:\\customize_gifts\\app\\Views\\pages\\product_view.php', 451)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/product_view', [], true)
+ 5 APPPATH\Controllers\Admin\Pages\Shop.php(27): view('pages/product_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->product_view('11')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-08-02 12:37:07 --> ErrorException: Undefined array key "status"
+[Method: GET, Route: shop]
+in APPPATH\Views\pages\shop.php on line 345.
+ 1 APPPATH\Views\pages\shop.php(345): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'D:\\customize_gifts\\app\\Views\\pages\\shop.php', 345)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\shop.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/shop', [], true)
+ 5 APPPATH\Controllers\PolicyController.php(62): view('pages/shop', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PolicyController->shop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PolicyController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-08-02 12:41:20 --> ErrorException: Undefined array key "status"
+[Method: GET, Route: shop]
+in APPPATH\Views\pages\shop.php on line 392.
+ 1 APPPATH\Views\pages\shop.php(392): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'D:\\customize_gifts\\app\\Views\\pages\\shop.php', 392)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\shop.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/shop', [], true)
+ 5 APPPATH\Controllers\PolicyController.php(62): view('pages/shop', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PolicyController->shop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PolicyController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-08-02 12:42:26 --> ErrorException: Undefined array key "status"
+[Method: GET, Route: shop]
+in APPPATH\Views\pages\shop.php on line 392.
+ 1 APPPATH\Views\pages\shop.php(392): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'D:\\customize_gifts\\app\\Views\\pages\\shop.php', 392)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\shop.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/shop', [], true)
+ 5 APPPATH\Controllers\PolicyController.php(62): view('pages/shop', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PolicyController->shop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PolicyController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-08-02 12:42:28 --> ErrorException: Undefined array key "status"
+[Method: GET, Route: shop]
+in APPPATH\Views\pages\shop.php on line 392.
+ 1 APPPATH\Views\pages\shop.php(392): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'D:\\customize_gifts\\app\\Views\\pages\\shop.php', 392)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\shop.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/shop', [], true)
+ 5 APPPATH\Controllers\PolicyController.php(62): view('pages/shop', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PolicyController->shop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PolicyController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-08-02 12:42:52 --> ErrorException: Undefined array key "status"
+[Method: GET, Route: shop]
+in APPPATH\Views\pages\shop.php on line 392.
+ 1 APPPATH\Views\pages\shop.php(392): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'D:\\customize_gifts\\app\\Views\\pages\\shop.php', 392)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\shop.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/shop', [], true)
+ 5 APPPATH\Controllers\PolicyController.php(62): view('pages/shop', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PolicyController->shop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PolicyController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-08-02 12:43:02 --> ParseError: syntax error, unexpected token ")"
+[Method: GET, Route: shop]
+in APPPATH\Views\pages\shop.php on line 392.
+ 1 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/shop', [], true)
+ 3 APPPATH\Controllers\PolicyController.php(62): view('pages/shop', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PolicyController->shop()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PolicyController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-08-02 14:49:14 --> ErrorException: Undefined array key "status"
+[Method: GET, Route: shop]
+in APPPATH\Views\pages\shop.php on line 392.
+ 1 APPPATH\Views\pages\shop.php(392): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'D:\\customize_gifts\\app\\Views\\pages\\shop.php', 392)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\shop.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/shop', [], true)
+ 5 APPPATH\Controllers\PolicyController.php(62): view('pages/shop', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PolicyController->shop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PolicyController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-08-02 14:58:49 --> ErrorException: Undefined array key "status"
+[Method: GET, Route: shop]
+in APPPATH\Views\pages\shop.php on line 392.
+ 1 APPPATH\Views\pages\shop.php(392): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'D:\\customize_gifts\\app\\Views\\pages\\shop.php', 392)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\shop.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/shop', [], true)
+ 5 APPPATH\Controllers\PolicyController.php(62): view('pages/shop', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PolicyController->shop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PolicyController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-08-02 14:59:37 --> ErrorException: Undefined array key "status"
+[Method: GET, Route: shop]
+in APPPATH\Views\pages\shop.php on line 392.
+ 1 APPPATH\Views\pages\shop.php(392): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'D:\\customize_gifts\\app\\Views\\pages\\shop.php', 392)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\shop.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/shop', [], true)
+ 5 APPPATH\Controllers\PolicyController.php(62): view('pages/shop', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PolicyController->shop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PolicyController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-08-02 15:05:56 --> ErrorException: Undefined array key "status"
+[Method: GET, Route: shop]
+in APPPATH\Views\pages\shop.php on line 392.
+ 1 APPPATH\Views\pages\shop.php(392): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'D:\\customize_gifts\\app\\Views\\pages\\shop.php', 392)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\shop.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/shop', [], true)
+ 5 APPPATH\Controllers\PolicyController.php(62): view('pages/shop', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PolicyController->shop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PolicyController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-08-02 15:23:05 --> ErrorException: Undefined array key "status"
+[Method: GET, Route: shop]
+in APPPATH\Views\pages\shop.php on line 392.
+ 1 APPPATH\Views\pages\shop.php(392): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'D:\\customize_gifts\\app\\Views\\pages\\shop.php', 392)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\shop.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/shop', [], true)
+ 5 APPPATH\Controllers\PolicyController.php(62): view('pages/shop', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PolicyController->shop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PolicyController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-08-02 15:28:50 --> ErrorException: Undefined array key "status"
+[Method: GET, Route: shop]
+in APPPATH\Views\pages\shop.php on line 392.
+ 1 APPPATH\Views\pages\shop.php(392): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'D:\\customize_gifts\\app\\Views\\pages\\shop.php', 392)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\shop.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/shop', [], true)
+ 5 APPPATH\Controllers\PolicyController.php(62): view('pages/shop', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PolicyController->shop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PolicyController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-08-02 15:38:21 --> ErrorException: Undefined array key "status"
+[Method: GET, Route: shop]
+in APPPATH\Views\pages\shop.php on line 392.
+ 1 APPPATH\Views\pages\shop.php(392): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'D:\\customize_gifts\\app\\Views\\pages\\shop.php', 392)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\shop.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/shop', [], true)
+ 5 APPPATH\Controllers\PolicyController.php(62): view('pages/shop', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PolicyController->shop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PolicyController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-08-02 15:40:32 --> ErrorException: Undefined array key "status"
+[Method: GET, Route: shop]
+in APPPATH\Views\pages\shop.php on line 392.
+ 1 APPPATH\Views\pages\shop.php(392): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'D:\\customize_gifts\\app\\Views\\pages\\shop.php', 392)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\shop.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/shop', [], true)
+ 5 APPPATH\Controllers\PolicyController.php(62): view('pages/shop', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PolicyController->shop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PolicyController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-08-02 15:45:29 --> ErrorException: Undefined array key "status"
+[Method: GET, Route: shop]
+in APPPATH\Views\pages\shop.php on line 392.
+ 1 APPPATH\Views\pages\shop.php(392): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'D:\\customize_gifts\\app\\Views\\pages\\shop.php', 392)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\shop.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/shop', [], true)
+ 5 APPPATH\Controllers\PolicyController.php(62): view('pages/shop', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PolicyController->shop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PolicyController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-08-02 15:55:22 --> ErrorException: Undefined array key "status"
+[Method: GET, Route: shop]
+in APPPATH\Views\pages\shop.php on line 392.
+ 1 APPPATH\Views\pages\shop.php(392): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'D:\\customize_gifts\\app\\Views\\pages\\shop.php', 392)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\shop.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/shop', [], true)
+ 5 APPPATH\Controllers\PolicyController.php(62): view('pages/shop', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PolicyController->shop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PolicyController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-08-02 15:57:20 --> ErrorException: Undefined array key "status"
+[Method: GET, Route: shop]
+in APPPATH\Views\pages\shop.php on line 392.
+ 1 APPPATH\Views\pages\shop.php(392): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'D:\\customize_gifts\\app\\Views\\pages\\shop.php', 392)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\shop.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/shop', [], true)
+ 5 APPPATH\Controllers\PolicyController.php(62): view('pages/shop', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PolicyController->shop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PolicyController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-08-02 15:58:37 --> ErrorException: Undefined array key "status"
+[Method: GET, Route: shop]
+in APPPATH\Views\pages\shop.php on line 392.
+ 1 APPPATH\Views\pages\shop.php(392): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'D:\\customize_gifts\\app\\Views\\pages\\shop.php', 392)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\shop.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/shop', [], true)
+ 5 APPPATH\Controllers\PolicyController.php(62): view('pages/shop', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PolicyController->shop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PolicyController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')

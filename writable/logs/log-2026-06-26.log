@@ -1,0 +1,10 @@
+CRITICAL - 2026-06-26 18:16:05 --> Error: Call to undefined method App\Controllers\PolicyController::getCartData()
+[Method: GET, Route: cart]
+in APPPATH\Controllers\PolicyController.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PolicyController->cart()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PolicyController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')

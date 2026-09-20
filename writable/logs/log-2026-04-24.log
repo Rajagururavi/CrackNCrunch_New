@@ -1,0 +1,1076 @@
+ERROR - 2026-04-24 07:43:34 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'customize_gift'@'localhost' (using password: NO) in D:\customize_gifts\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\customize_gifts\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'customize_gift', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 D:\customize_gifts\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\customize_gifts\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\customize_gifts\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\customize_gifts\system\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\customize_gifts\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\customize_gifts\app\Controllers\Admin\Auth.php(17): CodeIgniter\BaseModel->first()
+#7 D:\customize_gifts\system\CodeIgniter.php(951): App\Controllers\Admin\Auth->loginProcess()
+#8 D:\customize_gifts\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+#9 D:\customize_gifts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\customize_gifts\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 D:\customize_gifts\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\customize_gifts\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\customize_gifts\system\rewrite.php(44): require_once('D:\\customize_gi...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in D:\customize_gifts\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\customize_gifts\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\customize_gifts\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\customize_gifts\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\customize_gifts\system\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\customize_gifts\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 D:\customize_gifts\app\Controllers\Admin\Auth.php(17): CodeIgniter\BaseModel->first()
+#6 D:\customize_gifts\system\CodeIgniter.php(951): App\Controllers\Admin\Auth->loginProcess()
+#7 D:\customize_gifts\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+#8 D:\customize_gifts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\customize_gifts\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 D:\customize_gifts\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\customize_gifts\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\customize_gifts\system\rewrite.php(44): require_once('D:\\customize_gi...')
+#13 {main}
+CRITICAL - 2026-04-24 07:43:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+[Method: POST, Route: admin/loginProcess]
+in SYSTEMPATH\Database\BaseConnection.php on line 606.
+ 1 SYSTEMPATH\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admins`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Admin\Auth.php(17): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Auth->loginProcess()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+ERROR - 2026-04-24 07:43:58 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'customize_gift'@'localhost' (using password: NO) in D:\customize_gifts\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\customize_gifts\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'customize_gift', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 D:\customize_gifts\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\customize_gifts\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\customize_gifts\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\customize_gifts\system\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\customize_gifts\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\customize_gifts\app\Controllers\Admin\Auth.php(17): CodeIgniter\BaseModel->first()
+#7 D:\customize_gifts\system\CodeIgniter.php(951): App\Controllers\Admin\Auth->loginProcess()
+#8 D:\customize_gifts\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+#9 D:\customize_gifts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\customize_gifts\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 D:\customize_gifts\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\customize_gifts\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\customize_gifts\system\rewrite.php(44): require_once('D:\\customize_gi...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in D:\customize_gifts\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\customize_gifts\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\customize_gifts\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\customize_gifts\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\customize_gifts\system\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\customize_gifts\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 D:\customize_gifts\app\Controllers\Admin\Auth.php(17): CodeIgniter\BaseModel->first()
+#6 D:\customize_gifts\system\CodeIgniter.php(951): App\Controllers\Admin\Auth->loginProcess()
+#7 D:\customize_gifts\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+#8 D:\customize_gifts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\customize_gifts\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 D:\customize_gifts\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\customize_gifts\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\customize_gifts\system\rewrite.php(44): require_once('D:\\customize_gi...')
+#13 {main}
+CRITICAL - 2026-04-24 07:43:58 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+[Method: POST, Route: admin/loginProcess]
+in SYSTEMPATH\Database\BaseConnection.php on line 606.
+ 1 SYSTEMPATH\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admins`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Admin\Auth.php(17): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Auth->loginProcess()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+ERROR - 2026-04-24 08:01:55 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'customize_gift'@'localhost' (using password: NO) in D:\customize_gifts\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\customize_gifts\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'customize_gift', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 D:\customize_gifts\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\customize_gifts\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\customize_gifts\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\customize_gifts\system\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\customize_gifts\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\customize_gifts\app\Controllers\Admin\Auth.php(23): CodeIgniter\BaseModel->first()
+#7 D:\customize_gifts\system\CodeIgniter.php(951): App\Controllers\Admin\Auth->loginProcess()
+#8 D:\customize_gifts\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+#9 D:\customize_gifts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\customize_gifts\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 D:\customize_gifts\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\customize_gifts\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\customize_gifts\system\rewrite.php(44): require_once('D:\\customize_gi...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in D:\customize_gifts\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\customize_gifts\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\customize_gifts\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\customize_gifts\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\customize_gifts\system\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\customize_gifts\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 D:\customize_gifts\app\Controllers\Admin\Auth.php(23): CodeIgniter\BaseModel->first()
+#6 D:\customize_gifts\system\CodeIgniter.php(951): App\Controllers\Admin\Auth->loginProcess()
+#7 D:\customize_gifts\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+#8 D:\customize_gifts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\customize_gifts\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 D:\customize_gifts\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\customize_gifts\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\customize_gifts\system\rewrite.php(44): require_once('D:\\customize_gi...')
+#13 {main}
+CRITICAL - 2026-04-24 08:01:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+[Method: POST, Route: admin/loginProcess]
+in SYSTEMPATH\Database\BaseConnection.php on line 606.
+ 1 SYSTEMPATH\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admins`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Admin\Auth.php(23): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Auth->loginProcess()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+ERROR - 2026-04-24 08:02:03 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'customize_gift'@'localhost' (using password: NO) in D:\customize_gifts\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\customize_gifts\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'customize_gift', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 D:\customize_gifts\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\customize_gifts\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\customize_gifts\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\customize_gifts\system\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\customize_gifts\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\customize_gifts\app\Controllers\Admin\Auth.php(23): CodeIgniter\BaseModel->first()
+#7 D:\customize_gifts\system\CodeIgniter.php(951): App\Controllers\Admin\Auth->loginProcess()
+#8 D:\customize_gifts\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+#9 D:\customize_gifts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\customize_gifts\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 D:\customize_gifts\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\customize_gifts\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\customize_gifts\system\rewrite.php(44): require_once('D:\\customize_gi...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in D:\customize_gifts\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\customize_gifts\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\customize_gifts\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\customize_gifts\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\customize_gifts\system\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\customize_gifts\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 D:\customize_gifts\app\Controllers\Admin\Auth.php(23): CodeIgniter\BaseModel->first()
+#6 D:\customize_gifts\system\CodeIgniter.php(951): App\Controllers\Admin\Auth->loginProcess()
+#7 D:\customize_gifts\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+#8 D:\customize_gifts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\customize_gifts\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 D:\customize_gifts\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\customize_gifts\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\customize_gifts\system\rewrite.php(44): require_once('D:\\customize_gi...')
+#13 {main}
+CRITICAL - 2026-04-24 08:02:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+[Method: POST, Route: admin/loginProcess]
+in SYSTEMPATH\Database\BaseConnection.php on line 606.
+ 1 SYSTEMPATH\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admins`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Admin\Auth.php(23): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Auth->loginProcess()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+ERROR - 2026-04-24 08:04:23 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'customize_gift'@'localhost' (using password: NO) in D:\customize_gifts\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\customize_gifts\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'customize_gift', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 D:\customize_gifts\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\customize_gifts\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\customize_gifts\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\customize_gifts\system\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\customize_gifts\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\customize_gifts\app\Controllers\Admin\Auth.php(23): CodeIgniter\BaseModel->first()
+#7 D:\customize_gifts\system\CodeIgniter.php(951): App\Controllers\Admin\Auth->loginProcess()
+#8 D:\customize_gifts\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+#9 D:\customize_gifts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\customize_gifts\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 D:\customize_gifts\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\customize_gifts\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\customize_gifts\system\rewrite.php(44): require_once('D:\\customize_gi...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in D:\customize_gifts\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\customize_gifts\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\customize_gifts\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\customize_gifts\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\customize_gifts\system\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\customize_gifts\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 D:\customize_gifts\app\Controllers\Admin\Auth.php(23): CodeIgniter\BaseModel->first()
+#6 D:\customize_gifts\system\CodeIgniter.php(951): App\Controllers\Admin\Auth->loginProcess()
+#7 D:\customize_gifts\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+#8 D:\customize_gifts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\customize_gifts\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 D:\customize_gifts\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\customize_gifts\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\customize_gifts\system\rewrite.php(44): require_once('D:\\customize_gi...')
+#13 {main}
+CRITICAL - 2026-04-24 08:04:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+[Method: POST, Route: admin/loginProcess]
+in SYSTEMPATH\Database\BaseConnection.php on line 606.
+ 1 SYSTEMPATH\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admins`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Admin\Auth.php(23): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Auth->loginProcess()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+ERROR - 2026-04-24 08:05:48 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'customize_gift'@'localhost' (using password: NO) in D:\customize_gifts\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\customize_gifts\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'customize_gift', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 D:\customize_gifts\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\customize_gifts\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\customize_gifts\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\customize_gifts\system\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\customize_gifts\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\customize_gifts\app\Controllers\Admin\Auth.php(46): CodeIgniter\BaseModel->first()
+#7 D:\customize_gifts\system\CodeIgniter.php(951): App\Controllers\Admin\Auth->sendOtp()
+#8 D:\customize_gifts\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+#9 D:\customize_gifts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\customize_gifts\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 D:\customize_gifts\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\customize_gifts\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\customize_gifts\system\rewrite.php(44): require_once('D:\\customize_gi...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in D:\customize_gifts\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\customize_gifts\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\customize_gifts\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\customize_gifts\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\customize_gifts\system\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\customize_gifts\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 D:\customize_gifts\app\Controllers\Admin\Auth.php(46): CodeIgniter\BaseModel->first()
+#6 D:\customize_gifts\system\CodeIgniter.php(951): App\Controllers\Admin\Auth->sendOtp()
+#7 D:\customize_gifts\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+#8 D:\customize_gifts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\customize_gifts\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 D:\customize_gifts\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\customize_gifts\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\customize_gifts\system\rewrite.php(44): require_once('D:\\customize_gi...')
+#13 {main}
+CRITICAL - 2026-04-24 08:05:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+[Method: POST, Route: admin/send-otp]
+in SYSTEMPATH\Database\BaseConnection.php on line 606.
+ 1 SYSTEMPATH\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admins`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Admin\Auth.php(46): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Auth->sendOtp()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+ERROR - 2026-04-24 08:11:18 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'customize_gift'@'localhost' (using password: NO) in D:\customize_gifts\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\customize_gifts\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'customize_gift', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 D:\customize_gifts\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\customize_gifts\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\customize_gifts\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\customize_gifts\system\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\customize_gifts\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\customize_gifts\app\Controllers\Admin\Auth.php(46): CodeIgniter\BaseModel->first()
+#7 D:\customize_gifts\system\CodeIgniter.php(951): App\Controllers\Admin\Auth->sendOtp()
+#8 D:\customize_gifts\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+#9 D:\customize_gifts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\customize_gifts\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 D:\customize_gifts\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\customize_gifts\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\customize_gifts\system\rewrite.php(44): require_once('D:\\customize_gi...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in D:\customize_gifts\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\customize_gifts\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\customize_gifts\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\customize_gifts\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\customize_gifts\system\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\customize_gifts\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 D:\customize_gifts\app\Controllers\Admin\Auth.php(46): CodeIgniter\BaseModel->first()
+#6 D:\customize_gifts\system\CodeIgniter.php(951): App\Controllers\Admin\Auth->sendOtp()
+#7 D:\customize_gifts\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+#8 D:\customize_gifts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\customize_gifts\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 D:\customize_gifts\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\customize_gifts\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\customize_gifts\system\rewrite.php(44): require_once('D:\\customize_gi...')
+#13 {main}
+CRITICAL - 2026-04-24 08:11:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+[Method: POST, Route: admin/send-otp]
+in SYSTEMPATH\Database\BaseConnection.php on line 606.
+ 1 SYSTEMPATH\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admins`
+WHERE `username` IS NULL
+ LIMIT 1', [], false)
+ 3 SYSTEMPATH\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Admin\Auth.php(46): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Auth->sendOtp()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+ERROR - 2026-04-24 08:11:34 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'customize_gift'@'localhost' (using password: NO) in D:\customize_gifts\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\customize_gifts\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'customize_gift', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 D:\customize_gifts\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\customize_gifts\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\customize_gifts\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\customize_gifts\system\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\customize_gifts\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\customize_gifts\app\Controllers\Admin\Auth.php(23): CodeIgniter\BaseModel->first()
+#7 D:\customize_gifts\system\CodeIgniter.php(951): App\Controllers\Admin\Auth->loginProcess()
+#8 D:\customize_gifts\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+#9 D:\customize_gifts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\customize_gifts\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 D:\customize_gifts\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\customize_gifts\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\customize_gifts\system\rewrite.php(44): require_once('D:\\customize_gi...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in D:\customize_gifts\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\customize_gifts\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\customize_gifts\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\customize_gifts\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\customize_gifts\system\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\customize_gifts\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 D:\customize_gifts\app\Controllers\Admin\Auth.php(23): CodeIgniter\BaseModel->first()
+#6 D:\customize_gifts\system\CodeIgniter.php(951): App\Controllers\Admin\Auth->loginProcess()
+#7 D:\customize_gifts\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+#8 D:\customize_gifts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\customize_gifts\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 D:\customize_gifts\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\customize_gifts\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\customize_gifts\system\rewrite.php(44): require_once('D:\\customize_gi...')
+#13 {main}
+CRITICAL - 2026-04-24 08:11:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+[Method: POST, Route: admin/loginProcess]
+in SYSTEMPATH\Database\BaseConnection.php on line 606.
+ 1 SYSTEMPATH\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admins`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Admin\Auth.php(23): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Auth->loginProcess()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+ERROR - 2026-04-24 08:13:27 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'customize_gift'@'localhost' (using password: NO) in D:\customize_gifts\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\customize_gifts\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'customize_gift', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 D:\customize_gifts\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\customize_gifts\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\customize_gifts\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\customize_gifts\system\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\customize_gifts\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\customize_gifts\app\Controllers\Admin\Auth.php(26): CodeIgniter\BaseModel->first()
+#7 D:\customize_gifts\system\CodeIgniter.php(951): App\Controllers\Admin\Auth->loginProcess()
+#8 D:\customize_gifts\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+#9 D:\customize_gifts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\customize_gifts\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 D:\customize_gifts\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\customize_gifts\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\customize_gifts\system\rewrite.php(44): require_once('D:\\customize_gi...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in D:\customize_gifts\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\customize_gifts\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\customize_gifts\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\customize_gifts\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\customize_gifts\system\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\customize_gifts\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 D:\customize_gifts\app\Controllers\Admin\Auth.php(26): CodeIgniter\BaseModel->first()
+#6 D:\customize_gifts\system\CodeIgniter.php(951): App\Controllers\Admin\Auth->loginProcess()
+#7 D:\customize_gifts\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+#8 D:\customize_gifts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\customize_gifts\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 D:\customize_gifts\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\customize_gifts\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\customize_gifts\system\rewrite.php(44): require_once('D:\\customize_gi...')
+#13 {main}
+CRITICAL - 2026-04-24 08:13:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+[Method: POST, Route: admin/loginProcess]
+in SYSTEMPATH\Database\BaseConnection.php on line 606.
+ 1 SYSTEMPATH\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admins`
+ LIMIT 1', [], false)
+ 3 SYSTEMPATH\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Admin\Auth.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Auth->loginProcess()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+ERROR - 2026-04-24 08:17:32 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'customize_gift'@'localhost' (using password: NO) in D:\customize_gifts\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\customize_gifts\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'customize_gift', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 D:\customize_gifts\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\customize_gifts\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\customize_gifts\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\customize_gifts\system\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\customize_gifts\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\customize_gifts\app\Controllers\Admin\Auth.php(26): CodeIgniter\BaseModel->first()
+#7 D:\customize_gifts\system\CodeIgniter.php(951): App\Controllers\Admin\Auth->loginProcess()
+#8 D:\customize_gifts\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+#9 D:\customize_gifts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\customize_gifts\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 D:\customize_gifts\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\customize_gifts\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\customize_gifts\system\rewrite.php(44): require_once('D:\\customize_gi...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in D:\customize_gifts\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\customize_gifts\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\customize_gifts\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\customize_gifts\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\customize_gifts\system\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\customize_gifts\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 D:\customize_gifts\app\Controllers\Admin\Auth.php(26): CodeIgniter\BaseModel->first()
+#6 D:\customize_gifts\system\CodeIgniter.php(951): App\Controllers\Admin\Auth->loginProcess()
+#7 D:\customize_gifts\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+#8 D:\customize_gifts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\customize_gifts\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 D:\customize_gifts\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\customize_gifts\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\customize_gifts\system\rewrite.php(44): require_once('D:\\customize_gi...')
+#13 {main}
+CRITICAL - 2026-04-24 08:17:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+[Method: POST, Route: admin/login]
+in SYSTEMPATH\Database\BaseConnection.php on line 606.
+ 1 SYSTEMPATH\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admins`
+ LIMIT 1', [], false)
+ 3 SYSTEMPATH\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Admin\Auth.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Auth->loginProcess()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+ERROR - 2026-04-24 08:26:17 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'customize_gift'@'localhost' (using password: NO) in D:\customize_gifts\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\customize_gifts\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'customize_gift', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 D:\customize_gifts\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\customize_gifts\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\customize_gifts\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\customize_gifts\system\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\customize_gifts\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\customize_gifts\app\Controllers\Admin\Auth.php(24): CodeIgniter\BaseModel->first()
+#7 D:\customize_gifts\system\CodeIgniter.php(951): App\Controllers\Admin\Auth->loginProcess()
+#8 D:\customize_gifts\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+#9 D:\customize_gifts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\customize_gifts\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 D:\customize_gifts\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\customize_gifts\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\customize_gifts\system\rewrite.php(44): require_once('D:\\customize_gi...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in D:\customize_gifts\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\customize_gifts\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\customize_gifts\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\customize_gifts\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\customize_gifts\system\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\customize_gifts\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 D:\customize_gifts\app\Controllers\Admin\Auth.php(24): CodeIgniter\BaseModel->first()
+#6 D:\customize_gifts\system\CodeIgniter.php(951): App\Controllers\Admin\Auth->loginProcess()
+#7 D:\customize_gifts\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+#8 D:\customize_gifts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\customize_gifts\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 D:\customize_gifts\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\customize_gifts\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\customize_gifts\system\rewrite.php(44): require_once('D:\\customize_gi...')
+#13 {main}
+CRITICAL - 2026-04-24 08:26:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+[Method: POST, Route: admin/login]
+in SYSTEMPATH\Database\BaseConnection.php on line 606.
+ 1 SYSTEMPATH\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admins`
+ LIMIT 1', [], false)
+ 3 SYSTEMPATH\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Admin\Auth.php(24): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Auth->loginProcess()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+ERROR - 2026-04-24 08:31:51 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'customize_gift'@'localhost' (using password: NO) in D:\customize_gifts\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\customize_gifts\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'customize_gift', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 D:\customize_gifts\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\customize_gifts\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\customize_gifts\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\customize_gifts\system\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\customize_gifts\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\customize_gifts\app\Controllers\Admin\Auth.php(23): CodeIgniter\BaseModel->first()
+#7 D:\customize_gifts\system\CodeIgniter.php(951): App\Controllers\Admin\Auth->loginProcess()
+#8 D:\customize_gifts\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+#9 D:\customize_gifts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\customize_gifts\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 D:\customize_gifts\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\customize_gifts\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\customize_gifts\system\rewrite.php(44): require_once('D:\\customize_gi...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in D:\customize_gifts\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\customize_gifts\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\customize_gifts\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\customize_gifts\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\customize_gifts\system\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\customize_gifts\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 D:\customize_gifts\app\Controllers\Admin\Auth.php(23): CodeIgniter\BaseModel->first()
+#6 D:\customize_gifts\system\CodeIgniter.php(951): App\Controllers\Admin\Auth->loginProcess()
+#7 D:\customize_gifts\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+#8 D:\customize_gifts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\customize_gifts\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 D:\customize_gifts\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\customize_gifts\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\customize_gifts\system\rewrite.php(44): require_once('D:\\customize_gi...')
+#13 {main}
+CRITICAL - 2026-04-24 08:31:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+[Method: POST, Route: admin/loginProcess]
+in SYSTEMPATH\Database\BaseConnection.php on line 606.
+ 1 SYSTEMPATH\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admins`
+ LIMIT 1', [], false)
+ 3 SYSTEMPATH\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Admin\Auth.php(23): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Auth->loginProcess()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+ERROR - 2026-04-24 08:42:49 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'customize_gift'@'localhost' (using password: NO) in D:\customize_gifts\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\customize_gifts\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'customize_gift', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 D:\customize_gifts\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\customize_gifts\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\customize_gifts\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\customize_gifts\system\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\customize_gifts\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\customize_gifts\app\Controllers\Admin\Auth.php(24): CodeIgniter\BaseModel->first()
+#7 D:\customize_gifts\system\CodeIgniter.php(951): App\Controllers\Admin\Auth->loginProcess()
+#8 D:\customize_gifts\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+#9 D:\customize_gifts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\customize_gifts\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 D:\customize_gifts\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\customize_gifts\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\customize_gifts\system\rewrite.php(44): require_once('D:\\customize_gi...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in D:\customize_gifts\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\customize_gifts\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\customize_gifts\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\customize_gifts\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\customize_gifts\system\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\customize_gifts\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 D:\customize_gifts\app\Controllers\Admin\Auth.php(24): CodeIgniter\BaseModel->first()
+#6 D:\customize_gifts\system\CodeIgniter.php(951): App\Controllers\Admin\Auth->loginProcess()
+#7 D:\customize_gifts\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+#8 D:\customize_gifts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\customize_gifts\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 D:\customize_gifts\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\customize_gifts\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\customize_gifts\system\rewrite.php(44): require_once('D:\\customize_gi...')
+#13 {main}
+CRITICAL - 2026-04-24 08:42:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+[Method: POST, Route: admin/loginProcess]
+in SYSTEMPATH\Database\BaseConnection.php on line 606.
+ 1 SYSTEMPATH\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admins`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Admin\Auth.php(24): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Auth->loginProcess()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-04-24 10:22:15 --> CodeIgniter\Database\Exceptions\DatabaseException: Updates are not allowed unless they contain a "where" or "like" clause.
+[Method: POST, Route: admin/updatePassword]
+in SYSTEMPATH\Model.php on line 401.
+ 1 SYSTEMPATH\BaseModel.php(1074): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(709): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\Admin\Auth.php(46): CodeIgniter\Model->update()
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Auth->updatePassword()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-04-24 10:25:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Updates are not allowed unless they contain a "where" or "like" clause.
+[Method: POST, Route: admin/updatePassword]
+in SYSTEMPATH\Model.php on line 401.
+ 1 SYSTEMPATH\BaseModel.php(1074): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(709): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\Admin\Auth.php(46): CodeIgniter\Model->update()
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Auth->updatePassword()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-04-24 10:38:49 --> ErrorException: Undefined variable $maskedPhone
+[Method: GET, Route: admin/login]
+in APPPATH\Views\admin\login.php on line 144.
+ 1 APPPATH\Views\admin\login.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $maskedPhone', 'D:\\customize_gifts\\app\\Views\\admin\\login.php', 144)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\login.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/login', [], true)
+ 5 APPPATH\Controllers\Admin\Auth.php(17): view('admin/login')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Auth->login()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-04-24 10:38:52 --> ErrorException: Undefined variable $maskedPhone
+[Method: GET, Route: admin/login]
+in APPPATH\Views\admin\login.php on line 144.
+ 1 APPPATH\Views\admin\login.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $maskedPhone', 'D:\\customize_gifts\\app\\Views\\admin\\login.php', 144)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\login.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/login', [], true)
+ 5 APPPATH\Controllers\Admin\Auth.php(17): view('admin/login')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Auth->login()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-04-24 12:27:33 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+[Method: POST, Route: admin/products/store]
+in SYSTEMPATH\BaseModel.php on line 885.
+ 1 SYSTEMPATH\BaseModel.php(885): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(668): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Admin\Product.php(19): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Product->store()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-04-24 14:00:09 --> ErrorException: Undefined variable $brands
+[Method: GET, Route: /]
+in APPPATH\Views\pages\home.php on line 26.
+ 1 APPPATH\Views\pages\home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $brands', 'D:\\customize_gifts\\app\\Views\\pages\\home.php', 26)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('pages/home')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-04-24 14:07:31 --> ErrorException: Undefined variable $brands
+[Method: GET, Route: /]
+in APPPATH\Views\pages\home.php on line 26.
+ 1 APPPATH\Views\pages\home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $brands', 'D:\\customize_gifts\\app\\Views\\pages\\home.php', 26)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('pages/home')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-04-24 14:07:31 --> ErrorException: Undefined variable $brands
+[Method: GET, Route: /]
+in APPPATH\Views\pages\home.php on line 26.
+ 1 APPPATH\Views\pages\home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $brands', 'D:\\customize_gifts\\app\\Views\\pages\\home.php', 26)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('pages/home')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-04-24 14:08:49 --> ErrorException: Undefined variable $brands
+[Method: GET, Route: /]
+in APPPATH\Views\pages\home.php on line 26.
+ 1 APPPATH\Views\pages\home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $brands', 'D:\\customize_gifts\\app\\Views\\pages\\home.php', 26)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('pages/home')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-04-24 14:11:18 --> ErrorException: Undefined variable $brands
+[Method: GET, Route: /]
+in APPPATH\Views\pages\home.php on line 26.
+ 1 APPPATH\Views\pages\home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $brands', 'D:\\customize_gifts\\app\\Views\\pages\\home.php', 26)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('pages/home')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-04-24 14:11:21 --> ErrorException: Undefined variable $brands
+[Method: GET, Route: /]
+in APPPATH\Views\pages\home.php on line 26.
+ 1 APPPATH\Views\pages\home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $brands', 'D:\\customize_gifts\\app\\Views\\pages\\home.php', 26)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('pages/home')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-04-24 14:13:10 --> ErrorException: Undefined variable $brands
+[Method: GET, Route: /]
+in APPPATH\Views\pages\home.php on line 26.
+ 1 APPPATH\Views\pages\home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $brands', 'D:\\customize_gifts\\app\\Views\\pages\\home.php', 26)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('pages/home')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-04-24 14:13:51 --> ErrorException: Undefined variable $brands
+[Method: GET, Route: /]
+in APPPATH\Views\pages\home.php on line 26.
+ 1 APPPATH\Views\pages\home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $brands', 'D:\\customize_gifts\\app\\Views\\pages\\home.php', 26)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('pages/home')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-04-24 14:14:48 --> ErrorException: Undefined variable $brands
+[Method: GET, Route: /]
+in APPPATH\Views\pages\home.php on line 26.
+ 1 APPPATH\Views\pages\home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $brands', 'D:\\customize_gifts\\app\\Views\\pages\\home.php', 26)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('pages/home')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-04-24 14:17:28 --> ErrorException: Undefined variable $brands
+[Method: GET, Route: /]
+in APPPATH\Views\pages\home.php on line 26.
+ 1 APPPATH\Views\pages\home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $brands', 'D:\\customize_gifts\\app\\Views\\pages\\home.php', 26)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('pages/home')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-04-24 14:22:42 --> ErrorException: Undefined variable $brands
+[Method: GET, Route: /]
+in APPPATH\Views\pages\home.php on line 26.
+ 1 APPPATH\Views\pages\home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $brands', 'D:\\customize_gifts\\app\\Views\\pages\\home.php', 26)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('pages/home')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-04-24 14:22:44 --> ErrorException: Undefined variable $brands
+[Method: GET, Route: /]
+in APPPATH\Views\pages\home.php on line 26.
+ 1 APPPATH\Views\pages\home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $brands', 'D:\\customize_gifts\\app\\Views\\pages\\home.php', 26)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('pages/home')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-04-24 14:25:11 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: /]
+in APPPATH\Views\pages\home.php on line 48.
+ 1 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/home', [], true)
+ 3 APPPATH\Controllers\Home.php(10): view('pages/home')
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-04-24 14:25:13 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: /]
+in APPPATH\Views\pages\home.php on line 48.
+ 1 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/home', [], true)
+ 3 APPPATH\Controllers\Home.php(10): view('pages/home')
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-04-24 14:25:48 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: /]
+in APPPATH\Views\pages\home.php on line 48.
+ 1 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/home', [], true)
+ 3 APPPATH\Controllers\Home.php(10): view('pages/home')
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-04-24 14:47:14 --> ErrorException: Undefined variable $brands
+[Method: GET, Route: /]
+in APPPATH\Views\pages\home.php on line 26.
+ 1 APPPATH\Views\pages\home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $brands', 'D:\\customize_gifts\\app\\Views\\pages\\home.php', 26)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('pages/home')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-04-24 14:56:38 --> ErrorException: Undefined variable $brands
+[Method: GET, Route: /]
+in APPPATH\Views\pages\home.php on line 40.
+ 1 APPPATH\Views\pages\home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $brands', 'D:\\customize_gifts\\app\\Views\\pages\\home.php', 40)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('pages/home')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-04-24 14:59:56 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: /]
+in APPPATH\Views\pages\home.php on line 50.
+ 1 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/home', [], true)
+ 3 APPPATH\Controllers\Home.php(15): view('pages/home')
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-04-24 15:02:54 --> ParseError: syntax error, unexpected token ";", expecting "]"
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 20.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\customize_gifts\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\Router\Router.php(792): class_exists('\\App\\Controllers\\Home')
+ 5 SYSTEMPATH\Router\Router.php(230): CodeIgniter\Router\Router->processRouteAttributes()
+ 6 SYSTEMPATH\CodeIgniter.php(829): CodeIgniter\Router\Router->handle('/')
+ 7 SYSTEMPATH\CodeIgniter.php(441): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-04-24 15:08:18 --> ErrorException: Undefined property: stdClass::$brand_title
+[Method: GET, Route: /]
+in APPPATH\Views\pages\home.php on line 28.
+ 1 APPPATH\Views\pages\home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$brand_title', 'D:\\customize_gifts\\app\\Views\\pages\\home.php', 28)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\Home.php(18): view('pages/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-04-24 15:15:52 --> ErrorException: Undefined property: stdClass::$category_title
+[Method: GET, Route: /]
+in APPPATH\Views\pages\home.php on line 40.
+ 1 APPPATH\Views\pages\home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$category_title', 'D:\\customize_gifts\\app\\Views\\pages\\home.php', 40)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\Home.php(17): view('pages/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-04-24 15:16:37 --> ErrorException: Undefined property: stdClass::$category_title
+[Method: GET, Route: /]
+in APPPATH\Views\pages\home.php on line 40.
+ 1 APPPATH\Views\pages\home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$category_title', 'D:\\customize_gifts\\app\\Views\\pages\\home.php', 40)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\Home.php(17): view('pages/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')

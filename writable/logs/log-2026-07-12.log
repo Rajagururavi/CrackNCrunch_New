@@ -1,0 +1,687 @@
+CRITICAL - 2026-07-12 09:08:03 --> ErrorException: Undefined variable $dashboard
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\admin\dashboard.php on line 177.
+ 1 APPPATH\Views\admin\dashboard.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dashboard', 'D:\\customize_gifts\\app\\Views\\admin\\dashboard.php', 177)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Panel.php(11): view('admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 09:09:13 --> ErrorException: Undefined variable $dashboard
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\admin\dashboard.php on line 177.
+ 1 APPPATH\Views\admin\dashboard.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dashboard', 'D:\\customize_gifts\\app\\Views\\admin\\dashboard.php', 177)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Panel.php(11): view('admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 09:10:25 --> ErrorException: Undefined variable $dashboard
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\admin\dashboard.php on line 177.
+ 1 APPPATH\Views\admin\dashboard.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dashboard', 'D:\\customize_gifts\\app\\Views\\admin\\dashboard.php', 177)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Panel.php(11): view('admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 09:10:27 --> ErrorException: Undefined variable $dashboard
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\admin\dashboard.php on line 177.
+ 1 APPPATH\Views\admin\dashboard.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dashboard', 'D:\\customize_gifts\\app\\Views\\admin\\dashboard.php', 177)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Panel.php(11): view('admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 09:10:40 --> ErrorException: Undefined variable $dashboard
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\admin\dashboard.php on line 175.
+ 1 APPPATH\Views\admin\dashboard.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dashboard', 'D:\\customize_gifts\\app\\Views\\admin\\dashboard.php', 175)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Panel.php(11): view('admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 09:12:12 --> ErrorException: Undefined variable $dashboard
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\admin\dashboard.php on line 177.
+ 1 APPPATH\Views\admin\dashboard.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dashboard', 'D:\\customize_gifts\\app\\Views\\admin\\dashboard.php', 177)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Panel.php(11): view('admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 09:13:58 --> ErrorException: Undefined variable $dashboard
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\admin\dashboard.php on line 210.
+ 1 APPPATH\Views\admin\dashboard.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dashboard', 'D:\\customize_gifts\\app\\Views\\admin\\dashboard.php', 210)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Panel.php(11): view('admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 09:14:00 --> ErrorException: Undefined variable $dashboard
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\admin\dashboard.php on line 210.
+ 1 APPPATH\Views\admin\dashboard.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dashboard', 'D:\\customize_gifts\\app\\Views\\admin\\dashboard.php', 210)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Panel.php(11): view('admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 09:14:23 --> ErrorException: Undefined variable $dashboard
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\admin\dashboard.php on line 210.
+ 1 APPPATH\Views\admin\dashboard.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dashboard', 'D:\\customize_gifts\\app\\Views\\admin\\dashboard.php', 210)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Panel.php(11): view('admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 09:17:37 --> ErrorException: Undefined variable $dashboard
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\admin\dashboard.php on line 177.
+ 1 APPPATH\Views\admin\dashboard.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dashboard', 'D:\\customize_gifts\\app\\Views\\admin\\dashboard.php', 177)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Panel.php(11): view('admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 09:18:59 --> ErrorException: Undefined variable $dashboard
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\admin\dashboard.php on line 177.
+ 1 APPPATH\Views\admin\dashboard.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dashboard', 'D:\\customize_gifts\\app\\Views\\admin\\dashboard.php', 177)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Panel.php(11): view('admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 09:22:11 --> ErrorException: Undefined variable $dashboard
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\admin\dashboard.php on line 177.
+ 1 APPPATH\Views\admin\dashboard.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dashboard', 'D:\\customize_gifts\\app\\Views\\admin\\dashboard.php', 177)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Panel.php(11): view('admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 09:22:15 --> ErrorException: Undefined variable $dashboard
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\admin\dashboard.php on line 177.
+ 1 APPPATH\Views\admin\dashboard.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dashboard', 'D:\\customize_gifts\\app\\Views\\admin\\dashboard.php', 177)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Panel.php(11): view('admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 09:26:37 --> ErrorException: Undefined variable $dashboard
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\admin\dashboard.php on line 177.
+ 1 APPPATH\Views\admin\dashboard.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dashboard', 'D:\\customize_gifts\\app\\Views\\admin\\dashboard.php', 177)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Panel.php(11): view('admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 09:30:08 --> ErrorException: Undefined variable $dashboard
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\admin\dashboard.php on line 177.
+ 1 APPPATH\Views\admin\dashboard.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dashboard', 'D:\\customize_gifts\\app\\Views\\admin\\dashboard.php', 177)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Panel.php(11): view('admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 09:31:14 --> ErrorException: Undefined variable $dashboard
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\admin\dashboard.php on line 177.
+ 1 APPPATH\Views\admin\dashboard.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dashboard', 'D:\\customize_gifts\\app\\Views\\admin\\dashboard.php', 177)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Panel.php(11): view('admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 09:34:26 --> ErrorException: Undefined variable $dashboard
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\admin\dashboard.php on line 177.
+ 1 APPPATH\Views\admin\dashboard.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dashboard', 'D:\\customize_gifts\\app\\Views\\admin\\dashboard.php', 177)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Panel.php(11): view('admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 09:34:28 --> ErrorException: Undefined variable $dashboard
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\admin\dashboard.php on line 177.
+ 1 APPPATH\Views\admin\dashboard.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dashboard', 'D:\\customize_gifts\\app\\Views\\admin\\dashboard.php', 177)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Panel.php(11): view('admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 09:34:49 --> ErrorException: Undefined variable $dashboard
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\admin\dashboard.php on line 177.
+ 1 APPPATH\Views\admin\dashboard.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dashboard', 'D:\\customize_gifts\\app\\Views\\admin\\dashboard.php', 177)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Panel.php(11): view('admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 15:38:15 --> ErrorException: Undefined variable $dashboard
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\admin\dashboard.php on line 1.
+ 1 APPPATH\Views\admin\dashboard.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dashboard', 'D:\\customize_gifts\\app\\Views\\admin\\dashboard.php', 1)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Panel.php(11): view('admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 15:40:34 --> ErrorException: Undefined variable $dashboard
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\admin\dashboard.php on line 1.
+ 1 APPPATH\Views\admin\dashboard.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dashboard', 'D:\\customize_gifts\\app\\Views\\admin\\dashboard.php', 1)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Panel.php(11): view('admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 15:41:39 --> ErrorException: Undefined variable $dashboard
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\admin\dashboard.php on line 1.
+ 1 APPPATH\Views\admin\dashboard.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dashboard', 'D:\\customize_gifts\\app\\Views\\admin\\dashboard.php', 1)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Panel.php(11): view('admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 15:41:41 --> ErrorException: Undefined variable $dashboard
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\admin\dashboard.php on line 1.
+ 1 APPPATH\Views\admin\dashboard.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dashboard', 'D:\\customize_gifts\\app\\Views\\admin\\dashboard.php', 1)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Panel.php(11): view('admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 15:42:13 --> ErrorException: Undefined variable $dashboard
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\admin\dashboard.php on line 1.
+ 1 APPPATH\Views\admin\dashboard.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dashboard', 'D:\\customize_gifts\\app\\Views\\admin\\dashboard.php', 1)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Panel.php(11): view('admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 15:43:49 --> ErrorException: Undefined variable $dashboard
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\admin\dashboard.php on line 2.
+ 1 APPPATH\Views\admin\dashboard.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dashboard', 'D:\\customize_gifts\\app\\Views\\admin\\dashboard.php', 2)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Panel.php(11): view('admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 15:45:35 --> ErrorException: Undefined variable $dashboard
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\admin\dashboard.php on line 1.
+ 1 APPPATH\Views\admin\dashboard.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dashboard', 'D:\\customize_gifts\\app\\Views\\admin\\dashboard.php', 1)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Panel.php(11): view('admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 15:45:37 --> ErrorException: Undefined variable $dashboard
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\admin\dashboard.php on line 1.
+ 1 APPPATH\Views\admin\dashboard.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dashboard', 'D:\\customize_gifts\\app\\Views\\admin\\dashboard.php', 1)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Panel.php(11): view('admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 15:45:54 --> ErrorException: Undefined variable $dashboard
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\admin\dashboard.php on line 1.
+ 1 APPPATH\Views\admin\dashboard.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dashboard', 'D:\\customize_gifts\\app\\Views\\admin\\dashboard.php', 1)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Panel.php(11): view('admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 15:46:43 --> ErrorException: Undefined variable $dashboard
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\admin\dashboard.php on line 1.
+ 1 APPPATH\Views\admin\dashboard.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dashboard', 'D:\\customize_gifts\\app\\Views\\admin\\dashboard.php', 1)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Panel.php(11): view('admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 15:50:23 --> ErrorException: Undefined variable $dashboard
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\admin\dashboard.php on line 1.
+ 1 APPPATH\Views\admin\dashboard.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dashboard', 'D:\\customize_gifts\\app\\Views\\admin\\dashboard.php', 1)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Panel.php(11): view('admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 15:52:17 --> ErrorException: Undefined variable $d
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\admin\dashboard.php on line 1.
+ 1 APPPATH\Views\admin\dashboard.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $d', 'D:\\customize_gifts\\app\\Views\\admin\\dashboard.php', 1)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Panel.php(11): view('admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 16:03:49 --> ErrorException: Undefined variable $orders
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\admin\dashboard.php on line 2.
+ 1 APPPATH\Views\admin\dashboard.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $orders', 'D:\\customize_gifts\\app\\Views\\admin\\dashboard.php', 2)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Panel.php(11): view('admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 16:04:34 --> ErrorException: Undefined variable $orders
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\admin\dashboard.php on line 2.
+ 1 APPPATH\Views\admin\dashboard.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $orders', 'D:\\customize_gifts\\app\\Views\\admin\\dashboard.php', 2)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Panel.php(11): view('admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 16:04:40 --> ErrorException: Undefined variable $orders
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\admin\dashboard.php on line 2.
+ 1 APPPATH\Views\admin\dashboard.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $orders', 'D:\\customize_gifts\\app\\Views\\admin\\dashboard.php', 2)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Panel.php(11): view('admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 16:04:59 --> ErrorException: Undefined variable $orders
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\admin\dashboard.php on line 2.
+ 1 APPPATH\Views\admin\dashboard.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $orders', 'D:\\customize_gifts\\app\\Views\\admin\\dashboard.php', 2)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Panel.php(11): view('admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 16:14:13 --> ErrorException: Undefined variable $orders
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\admin\dashboard.php on line 1.
+ 1 APPPATH\Views\admin\dashboard.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $orders', 'D:\\customize_gifts\\app\\Views\\admin\\dashboard.php', 1)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Panel.php(11): view('admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 16:46:25 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\OrderModel::getOrderCount
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH\Model.php on line 761.
+ 1 APPPATH\Controllers\Admin\Panel.php(13): CodeIgniter\Model->__call('getOrderCount', [])
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 16:46:28 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\OrderModel::getOrderCount
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH\Model.php on line 761.
+ 1 APPPATH\Controllers\Admin\Panel.php(13): CodeIgniter\Model->__call('getOrderCount', [])
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 16:46:53 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\OrderModel::getOrderCount
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH\Model.php on line 761.
+ 1 APPPATH\Controllers\Admin\Panel.php(13): CodeIgniter\Model->__call('getOrderCount', [])
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 16:46:55 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\OrderModel::getOrderCount
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH\Model.php on line 761.
+ 1 APPPATH\Controllers\Admin\Panel.php(13): CodeIgniter\Model->__call('getOrderCount', [])
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 16:47:07 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\OrderModel::getOrderCount
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH\Model.php on line 761.
+ 1 APPPATH\Controllers\Admin\Panel.php(13): CodeIgniter\Model->__call('getOrderCount', [])
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 16:47:09 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\OrderModel::getOrderCount
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH\Model.php on line 761.
+ 1 APPPATH\Controllers\Admin\Panel.php(13): CodeIgniter\Model->__call('getOrderCount', [])
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 16:47:48 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\OrderModel::getOrderCount
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH\Model.php on line 761.
+ 1 APPPATH\Controllers\Admin\Panel.php(13): CodeIgniter\Model->__call('getOrderCount', [])
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 16:48:04 --> ErrorException: Undefined variable $count
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\admin\dashboard.php on line 1.
+ 1 APPPATH\Views\admin\dashboard.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $count', 'D:\\customize_gifts\\app\\Views\\admin\\dashboard.php', 1)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Panel.php(14): view('admin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 16:49:16 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\OrderModel::getOrderCount
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH\Model.php on line 761.
+ 1 APPPATH\Controllers\Admin\Panel.php(13): CodeIgniter\Model->__call('getOrderCount', [])
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 16:49:18 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\OrderModel::getOrderCount
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH\Model.php on line 761.
+ 1 APPPATH\Controllers\Admin\Panel.php(13): CodeIgniter\Model->__call('getOrderCount', [])
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 16:49:39 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\OrderModel::getOrderCount
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH\Model.php on line 761.
+ 1 APPPATH\Controllers\Admin\Panel.php(13): CodeIgniter\Model->__call('getOrderCount', [])
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 16:49:56 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\OrderModel::getOrderCount
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH\Model.php on line 761.
+ 1 APPPATH\Controllers\Admin\Panel.php(13): CodeIgniter\Model->__call('getOrderCount', [])
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-12 16:51:33 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\OrderModel::getOrderCount
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH\Model.php on line 761.
+ 1 APPPATH\Controllers\Admin\Panel.php(13): CodeIgniter\Model->__call('getOrderCount', [])
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Panel->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Panel))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')

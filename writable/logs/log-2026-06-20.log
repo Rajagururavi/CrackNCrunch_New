@@ -1,0 +1,97 @@
+CRITICAL - 2026-06-20 16:49:37 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: shop]
+in APPPATH\Views\pages\shop.php on line 338.
+ 1 APPPATH\Views\pages\shop.php(338): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\customize_gifts\\app\\Views\\pages\\shop.php', 338)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\shop.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/shop', [], true)
+ 5 APPPATH\Controllers\PolicyController.php(41): view('pages/shop', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PolicyController->shop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PolicyController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-20 17:02:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/view_more.php"
+[Method: GET, Route: product_view/5]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/view_more.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/view_more', [], true)
+ 3 APPPATH\Controllers\Admin\Pages\Shop.php(27): view('pages/view_more', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->product_view('5')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-20 17:03:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/view_more.php"
+[Method: GET, Route: product_view/5]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/view_more.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/view_more', [], true)
+ 3 APPPATH\Controllers\Admin\Pages\Shop.php(27): view('pages/view_more', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->product_view('5')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-20 17:03:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/view_more.php"
+[Method: GET, Route: product_view/5]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/view_more.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/view_more', [], true)
+ 3 APPPATH\Controllers\Admin\Pages\Shop.php(27): view('pages/view_more', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->product_view('5')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-20 17:03:50 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/view_more.php"
+[Method: GET, Route: product_view/5]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/view_more.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/view_more', [], true)
+ 3 APPPATH\Controllers\Admin\Pages\Shop.php(27): view('pages/view_more', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Pages\Shop->product_view('5')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pages\Shop))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-20 18:02:07 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: shop]
+in APPPATH\Views\pages\shop.php on line 338.
+ 1 APPPATH\Views\pages\shop.php(338): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\customize_gifts\\app\\Views\\pages\\shop.php', 338)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\shop.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/shop', [], true)
+ 5 APPPATH\Controllers\PolicyController.php(41): view('pages/shop', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PolicyController->shop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PolicyController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-06-20 18:02:21 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: shop]
+in APPPATH\Views\pages\shop.php on line 338.
+ 1 APPPATH\Views\pages\shop.php(338): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\customize_gifts\\app\\Views\\pages\\shop.php', 338)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\pages\\shop.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pages/shop', [], true)
+ 5 APPPATH\Controllers\PolicyController.php(41): view('pages/shop', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PolicyController->shop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PolicyController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')

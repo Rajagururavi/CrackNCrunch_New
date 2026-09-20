@@ -1,0 +1,88 @@
+CRITICAL - 2026-07-03 16:02:18 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "menu/payment_success.php"
+[Method: GET, Route: payment_success]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menu/payment_success.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('menu/payment_success', [], true)
+ 3 APPPATH\Controllers\PaymentController.php(65): view('menu/payment_success')
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PaymentController->success()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-03 17:10:27 --> ErrorException: Undefined variable $order
+[Method: GET, Route: order/order_list]
+in APPPATH\Views\admin\order\order_list.php on line 1021.
+ 1 APPPATH\Views\admin\order\order_list.php(1021): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $order', 'D:\\customize_gifts\\app\\Views\\admin\\order\\order_list.php', 1021)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\order\\order_list.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/order/order_list', [], true)
+ 5 APPPATH\Controllers\Admin\Order.php(8): view('admin/order/order_list')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Order->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-03 17:10:47 --> ErrorException: Undefined variable $order
+[Method: GET, Route: order/order_list]
+in APPPATH\Views\admin\order\order_list.php on line 1010.
+ 1 APPPATH\Views\admin\order\order_list.php(1010): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $order', 'D:\\customize_gifts\\app\\Views\\admin\\order\\order_list.php', 1010)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\order\\order_list.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/order/order_list', [], true)
+ 5 APPPATH\Controllers\Admin\Order.php(8): view('admin/order/order_list')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Order->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-03 17:11:19 --> ErrorException: Undefined variable $order
+[Method: GET, Route: order/order_list]
+in APPPATH\Views\admin\order\order_list.php on line 1021.
+ 1 APPPATH\Views\admin\order\order_list.php(1021): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $order', 'D:\\customize_gifts\\app\\Views\\admin\\order\\order_list.php', 1021)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\order\\order_list.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/order/order_list', [], true)
+ 5 APPPATH\Controllers\Admin\Order.php(8): view('admin/order/order_list')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Order->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-03 17:47:51 --> ErrorException: Undefined variable $pager
+[Method: GET, Route: order/order_list]
+in APPPATH\Views\admin\order\order_list.php on line 802.
+ 1 APPPATH\Views\admin\order\order_list.php(802): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'D:\\customize_gifts\\app\\Views\\admin\\order\\order_list.php', 802)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\order\\order_list.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/order/order_list', [], true)
+ 5 APPPATH\Controllers\Admin\Order.php(8): view('admin/order/order_list')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Order->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-07-03 18:21:51 --> ErrorException: Undefined variable $pager
+[Method: GET, Route: order/order_list]
+in APPPATH\Views\admin\order\order_list.php on line 475.
+ 1 APPPATH\Views\admin\order\order_list.php(475): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'D:\\customize_gifts\\app\\Views\\admin\\order\\order_list.php', 475)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\admin\\order\\order_list.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/order/order_list', [], true)
+ 5 APPPATH\Controllers\Admin\Order.php(8): view('admin/order/order_list')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Order->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')

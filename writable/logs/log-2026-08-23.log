@@ -1,0 +1,45 @@
+CRITICAL - 2026-08-23 03:18:23 --> ErrorException: Undefined variable $user
+[Method: GET, Route: wish_list]
+in APPPATH\Views\user\wish_list.php on line 234.
+ 1 APPPATH\Views\user\wish_list.php(234): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'D:\\customize_gifts\\app\\Views\\user\\wish_list.php', 234)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\user\\wish_list.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('user/wish_list', [], true)
+ 5 APPPATH\Controllers\UserController.php(202): view('user/wish_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\UserController->wishlist()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-08-23 03:19:09 --> ErrorException: Undefined variable $user
+[Method: GET, Route: wish_list]
+in APPPATH\Views\user\wish_list.php on line 234.
+ 1 APPPATH\Views\user\wish_list.php(234): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'D:\\customize_gifts\\app\\Views\\user\\wish_list.php', 234)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\user\\wish_list.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('user/wish_list', [], true)
+ 5 APPPATH\Controllers\UserController.php(202): view('user/wish_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\UserController->wishlist()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-08-23 03:19:59 --> ErrorException: Undefined variable $user
+[Method: GET, Route: wish_list]
+in APPPATH\Views\user\wish_list.php on line 234.
+ 1 APPPATH\Views\user\wish_list.php(234): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'D:\\customize_gifts\\app\\Views\\user\\wish_list.php', 234)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\user\\wish_list.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('user/wish_list', [], true)
+ 5 APPPATH\Controllers\UserController.php(202): view('user/wish_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\UserController->wishlist()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')

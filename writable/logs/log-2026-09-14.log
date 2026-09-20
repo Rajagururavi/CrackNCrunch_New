@@ -1,0 +1,30 @@
+CRITICAL - 2026-09-14 16:40:20 --> ErrorException: Undefined variable $amount
+[Method: GET, Route: payment_method]
+in APPPATH\Views\menu\payment_method.php on line 6.
+ 1 APPPATH\Views\menu\payment_method.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $amount', 'D:\\customize_gifts\\app\\Views\\menu\\payment_method.php', 6)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\menu\\payment_method.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('menu/payment_method', [], true)
+ 5 APPPATH\Controllers\PaymentController.php(33): view('menu/payment_method')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PaymentController->paymentMethod()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
+CRITICAL - 2026-09-14 17:29:45 --> ErrorException: Undefined variable $orderNumber
+[Method: GET, Route: payment_method]
+in APPPATH\Views\menu\payment_method.php on line 251.
+ 1 APPPATH\Views\menu\payment_method.php(251): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $orderNumber', 'D:\\customize_gifts\\app\\Views\\menu\\payment_method.php', 251)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\customize_gifts\\app\\Views\\menu\\payment_method.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('menu/payment_method', [], true)
+ 5 APPPATH\Controllers\PaymentController.php(37): view('menu/payment_method', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\PaymentController->paymentMethod()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')

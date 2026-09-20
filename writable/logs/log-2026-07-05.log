@@ -1,0 +1,10 @@
+CRITICAL - 2026-07-05 16:47:52 --> Error: Class "Dompdf\Dompdf" not found
+[Method: GET, Route: admin/order/downloadInvoice/ORD20260703160627]
+in APPPATH\Controllers\Admin\Order.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Order->downloadInvoice('ORD20260703160627')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Order))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\customize_gifts\\public\\index.php')
