@@ -90,7 +90,15 @@ class Paths
 
     public function __construct()
     {
-        $writable = __DIR__ . '/../../writable';
+        if (is_dir(__DIR__ . '/../system')) {
+            $this->systemDirectory = __DIR__ . '/../system';
+            $this->appDirectory = __DIR__ . '/..';
+            $this->writableDirectory = __DIR__ . '/../writable';
+            $this->testsDirectory = __DIR__ . '/../tests';
+            $this->envDirectory = __DIR__ . '/../';
+        }
+
+        $writable = $this->writableDirectory;
         if (!is_dir($writable) || !@is_writable($writable) || getenv('VERCEL') || isset($_SERVER['VERCEL_ENV']) || getenv('VERCEL_REGION')) {
             $tmpWritable = sys_get_temp_dir() . '/writable';
             if (!is_dir($tmpWritable)) {
