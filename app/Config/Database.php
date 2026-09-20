@@ -213,8 +213,9 @@ class Database extends Config
             $this->default['DBDriver'] = $envDriver;
         }
 
-        // On Vercel serverless deployment without a remote MySQL host configured, fallback to SQLite3
-        if ((getenv('VERCEL') || isset($_SERVER['VERCEL'])) && !getenv('DB_HOSTNAME')) {
+        // On Vercel or read-only serverless deployment without a remote MySQL host configured, fallback to SQLite3
+        $writableCheck = __DIR__ . '/../../writable';
+        if ((!is_dir($writableCheck) || !@is_writable($writableCheck) || getenv('VERCEL') || isset($_SERVER['VERCEL_ENV']) || getenv('VERCEL_REGION')) && !getenv('DB_HOSTNAME')) {
             $dbPath = sys_get_temp_dir() . '/customize_gift.db';
             $this->default['DBDriver'] = 'SQLite3';
             $this->default['database'] = $dbPath;

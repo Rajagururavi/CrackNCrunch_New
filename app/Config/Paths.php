@@ -90,7 +90,8 @@ class Paths
 
     public function __construct()
     {
-        if (getenv('VERCEL') || isset($_SERVER['VERCEL'])) {
+        $writable = __DIR__ . '/../../writable';
+        if (!is_dir($writable) || !@is_writable($writable) || getenv('VERCEL') || isset($_SERVER['VERCEL_ENV']) || getenv('VERCEL_REGION')) {
             $tmpWritable = sys_get_temp_dir() . '/writable';
             if (!is_dir($tmpWritable)) {
                 @mkdir($tmpWritable, 0777, true);
