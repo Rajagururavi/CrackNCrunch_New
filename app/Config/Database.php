@@ -213,6 +213,29 @@ class Database extends Config
             $this->default['DBDriver'] = $envDriver;
         }
 
+        // On Vercel serverless deployment without a remote MySQL host configured, fallback to SQLite3
+        if ((getenv('VERCEL') || isset($_SERVER['VERCEL'])) && !getenv('DB_HOSTNAME')) {
+            $dbPath = sys_get_temp_dir() . '/customize_gift.db';
+            $this->default['DBDriver'] = 'SQLite3';
+            $this->default['database'] = $dbPath;
+            $this->default['DBPrefix'] = '';
+
+            if (!file_exists($dbPath)) {
+                try {
+                    $sqlite = new \SQLite3($dbPath);
+                    $sqlite->exec("CREATE TABLE IF NOT EXISTS categories (id INTEGER PRIMARY KEY AUTOINCREMENT, cat_title TEXT, cat_image TEXT);");
+                    $sqlite->exec("CREATE TABLE IF NOT EXISTS brand (id INTEGER PRIMARY KEY AUTOINCREMENT, brand_title TEXT, brand_image TEXT);");
+                    $sqlite->exec("CREATE TABLE IF NOT EXISTS products (id INTEGER PRIMARY KEY AUTOINCREMENT, product_title TEXT, product_description TEXT, product_keyword TEXT, brand_id INTEGER, category_id INTEGER, product_image1 TEXT, product_image2 TEXT, product_image3 TEXT, product_price REAL, status TEXT);");
+                    $sqlite->exec("CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY AUTOINCREMENT, full_name TEXT, email TEXT, mobile TEXT, password TEXT, address TEXT, city TEXT, state TEXT, country TEXT, gender TEXT, pincode TEXT);");
+                    $sqlite->exec("CREATE TABLE IF NOT EXISTS orders (id INTEGER PRIMARY KEY AUTOINCREMENT, user_id INTEGER, order_number TEXT, product_name TEXT, product_image TEXT, weight TEXT, quantity INTEGER, subtotal REAL, payment_method TEXT, upi_transaction_id TEXT, order_status TEXT, created_at DATETIME DEFAULT CURRENT_TIMESTAMP);");
+                    $sqlite->exec("CREATE TABLE IF NOT EXISTS admins (id INTEGER PRIMARY KEY AUTOINCREMENT, username TEXT, password TEXT);");
+                    $sqlite->exec("INSERT INTO categories (cat_title, cat_image) VALUES ('Snacks', 'snacks.jpg'), ('Sweets', 'sweets.jpg');");
+                    $sqlite->exec("INSERT INTO brand (brand_title, brand_image) VALUES ('CrackNCrunch Special', 'brand1.jpg');");
+                    $sqlite->close();
+                } catch (\Throwable $e) {}
+            }
+        }
+
         // Ensure that we always set the database group to 'tests' if
         // we are currently running an automated test suite, so that
         // we don't overwrite live data on accident.

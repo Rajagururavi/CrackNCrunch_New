@@ -7,14 +7,21 @@
     {
         public function index(): string
         {
-            $categoryModel = new CategoriesModel();
-            $categories = $categoryModel->builder()->get()->getResult();
-            $brandModel = new BrandModel();
-            $brands = $brandModel->builder()->get()->getResult();
-            $productModel = new ProductModel();
-            foreach ($brands as $brand) {
-                $brand->products = $productModel->where('brand_id', $brand->id)->limit(5)->findAll();
+            $categories = [];
+            $brands = [];
+            try {
+                $categoryModel = new CategoriesModel();
+                $categories = $categoryModel->builder()->get()->getResult();
+                $brandModel = new BrandModel();
+                $brands = $brandModel->builder()->get()->getResult();
+                $productModel = new ProductModel();
+                foreach ($brands as $brand) {
+                    $brand->products = $productModel->where('brand_id', $brand->id)->limit(5)->findAll();
+                }
+            } catch (\Throwable $e) {
+                log_message('error', 'Home controller DB exception: ' . $e->getMessage());
             }
+
             $headerData['pageTitle'] = 'Home';
             return view('templates/header', $headerData)
             . view('pages/home', [
