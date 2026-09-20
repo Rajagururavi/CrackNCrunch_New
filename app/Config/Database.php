@@ -26,10 +26,10 @@ class Database extends Config
      */
     public array $default = [
         'DSN'          => '',
-        'hostname'     => 'localhost',
-        'username'     => 'root',
-        'password'     => '',
-        'database'     => 'customize_gift',
+        'hostname'     => 'sql207.infinityfree.com',
+        'username'     => 'if0_42966152',
+        'password'     => 'gE7khJswFzIIE3cN',
+        'database'     => 'if0_42966152_crackncrunch',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => false,
@@ -193,6 +193,14 @@ class Database extends Config
     public function __construct()
     {
         parent::__construct();
+
+        // Local XAMPP environment fallback
+        if (isset($_SERVER['HTTP_HOST']) && str_contains($_SERVER['HTTP_HOST'], 'localhost')) {
+            $this->default['hostname'] = 'localhost';
+            $this->default['username'] = 'root';
+            $this->default['password'] = '';
+            $this->default['database'] = 'customize_gift';
+        }
 
         if ($envHost = getenv('DB_HOSTNAME') ?: getenv('database_default_hostname')) {
             $this->default['hostname'] = $envHost;
