@@ -17,7 +17,10 @@
     },
     {
       "src": "/(.*)",
-      "dest": "/api/index.php"
+      "dest": "/api/index.php",
+      "headers": {
+        "Content-Type": "text/html; charset=UTF-8"
+      }
     }
   ]
 }
